@@ -1,0 +1,203 @@
+[0.042s] Invoking command in '/home/jetson/robot_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_mppi_controller
+[3.874s] -- The C compiler identification is GNU 11.4.0
+[3.874s] -- The CXX compiler identification is GNU 11.4.0
+[3.874s] -- Detecting C compiler ABI info
+[3.874s] -- Detecting C compiler ABI info - done
+[3.874s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.874s] -- Detecting C compile features
+[3.874s] -- Detecting C compile features - done
+[3.874s] -- Detecting CXX compiler ABI info
+[3.875s] -- Detecting CXX compiler ABI info - done
+[3.875s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.875s] -- Detecting CXX compile features
+[3.875s] -- Detecting CXX compile features - done
+[3.875s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.875s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.875s] -- Performing Test arch_native_supported
+[3.875s] -- Performing Test arch_native_supported - Success
+[3.875s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.875s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.876s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.876s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.876s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.876s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.876s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.876s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.876s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.876s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.876s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.876s] -- Looking for pthread.h
+[3.876s] -- Looking for pthread.h - found
+[3.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.877s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.877s] -- Found Threads: TRUE  
+[3.877s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[3.877s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[3.877s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[3.877s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[3.877s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.877s] -- Found nav2_core: 1.1.20 (/home/jetson/robot_ws/install/nav2_core/share/nav2_core/cmake)
+[3.877s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.877s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.878s] -- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)
+[3.878s] -- Setting build type to Release as none was specified.
+[3.878s] -- Performing Test COMPILER_SUPPORTS_AVX512
+[3.878s] -- Performing Test COMPILER_SUPPORTS_AVX512 - Failed
+[3.878s] -- Performing Test COMPILER_SUPPORTS_SSE4
+[3.878s] -- Performing Test COMPILER_SUPPORTS_SSE4 - Failed
+[3.878s] -- Performing Test COMPILER_SUPPORTS_AVX2
+[3.878s] -- Performing Test COMPILER_SUPPORTS_AVX2 - Failed
+[3.878s] -- Performing Test COMPILER_SUPPORTS_FMA
+[3.878s] -- Performing Test COMPILER_SUPPORTS_FMA - Failed
+[3.879s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.879s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[3.879s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.506s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.507s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_mppi_controller/include
+[5.508s] -- Configured cppcheck exclude dirs and/or files: 
+[5.514s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.514s] -- Configured cpplint exclude dirs and/or files: 
+[5.517s] -- Added test 'lint_cmake' to check CMake code style
+[5.524s] -- Added test 'uncrustify' to check C / C++ code style
+[5.524s] -- Configured uncrustify additional arguments: 
+[5.525s] -- Added test 'xmllint' to check XML markup files
+[5.532s] -- Configuring done
+[6.688s] -- Generating done
+[6.849s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_mppi_controller
+[6.926s] Invoked command in '/home/jetson/robot_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_mppi_controller -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_mppi_controller
+[6.929s] Invoking command in '/home/jetson/robot_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_mppi_controller -- -j6 -l6
+[7.077s] [  2%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/controller.cpp.o[0m
+[26.145s] [  4%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/critic_manager.cpp.o[0m
+[28.216s] [  6%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/optimizer.cpp.o[0m
+[84.729s] [  8%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/path_handler.cpp.o[0m
+[105.056s] [ 10%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/parameters_handler.cpp.o[0m
+[113.688s] [ 12%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/noise_generator.cpp.o[0m
+[126.698s] [ 14%] [32mBuilding CXX object CMakeFiles/mppi_controller.dir/src/trajectory_visualizer.cpp.o[0m
+[155.660s] [ 16%] [32m[1mLinking CXX shared library libmppi_controller.so[0m
+[156.486s] [ 16%] Built target mppi_controller
+[156.526s] [ 18%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[158.431s] [ 20%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[158.501s] [ 20%] Built target gtest_main
+[158.547s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[176.407s] [ 24%] [32m[1mLinking CXX static library libgtest.a[0m
+[176.627s] [ 24%] Built target gtest
+[176.754s] [ 26%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/obstacles_critic.cpp.o[0m
+[201.839s] [ 28%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/cost_critic.cpp.o[0m
+[220.793s] [ 30%] [32mBuilding CXX object test/CMakeFiles/parameter_handler_test.dir/parameter_handler_test.cpp.o[0m
+[222.586s] [ 32%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_critic.cpp.o[0m
+[222.893s] [ 34%] [32mBuilding CXX object test/CMakeFiles/noise_generator_test.dir/noise_generator_test.cpp.o[0m
+[224.989s] [ 36%] [32mBuilding CXX object test/CMakeFiles/models_test.dir/models_test.cpp.o[0m
+[239.793s] [ 38%] [32m[1mLinking CXX executable parameter_handler_test[0m
+[240.978s] [ 38%] Built target parameter_handler_test
+[247.090s] [ 40%] [32m[1mLinking CXX executable models_test[0m
+[247.370s] [ 42%] [32m[1mLinking CXX executable noise_generator_test[0m
+[248.040s] [ 42%] Built target models_test
+[248.253s] [ 42%] Built target noise_generator_test
+[254.637s] [ 44%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/goal_angle_critic.cpp.o[0m
+[282.314s] [ 46%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_critic.cpp.o[0m
+[305.707s] [ 48%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_align_legacy_critic.cpp.o[0m
+[327.381s] [ 51%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_follow_critic.cpp.o[0m
+[351.893s] [ 53%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/path_angle_critic.cpp.o[0m
+[379.465s] [ 55%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/prefer_forward_critic.cpp.o[0m
+[385.807s] [ 57%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[387.950s] [ 59%] [32mBuilding CXX object test/CMakeFiles/trajectory_visualizer_tests.dir/trajectory_visualizer_tests.cpp.o[0m
+[390.042s] [ 61%] [32mBuilding CXX object test/CMakeFiles/motion_model_tests.dir/motion_model_tests.cpp.o[0m
+[413.922s] [ 63%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/twirling_critic.cpp.o[0m
+[427.554s] [ 65%] [32m[1mLinking CXX executable motion_model_tests[0m
+[428.639s] [ 65%] Built target motion_model_tests
+[435.981s] [ 67%] [32m[1mLinking CXX executable utils_test[0m
+[437.264s] [ 67%] Built target utils_test
+[442.168s] [ 69%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/velocity_deadband_critic.cpp.o[0m
+[462.161s] [ 71%] [32m[1mLinking CXX executable trajectory_visualizer_tests[0m
+[463.099s] [ 71%] Built target trajectory_visualizer_tests
+[467.789s] [ 73%] [32mBuilding CXX object CMakeFiles/mppi_critics.dir/src/critics/constraint_critic.cpp.o[0m
+[493.021s] [ 75%] [32m[1mLinking CXX shared library libmppi_critics.so[0m
+[494.060s] [ 75%] Built target mppi_critics
+[494.106s] [ 77%] [32mBuilding CXX object test/CMakeFiles/optimizer_unit_tests.dir/optimizer_unit_tests.cpp.o[0m
+[508.493s] [01m[K/home/jetson/robot_ws/src/navigation2/nav2_mppi_controller/test/optimizer_unit_tests.cpp:[m[K In member function ‘[01m[Kstd::pair<double, double> OptimizerTester::getVelLimits()[m[K’:
+[508.493s] [01m[K/home/jetson/robot_ws/src/navigation2/nav2_mppi_controller/test/optimizer_unit_tests.cpp:147:3:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[508.493s]   147 |   [01;36m[K{[m[K
+[508.493s]       |   [01;36m[K^[m[K
+[535.686s] [ 79%] [32m[1mLinking CXX executable optimizer_unit_tests[0m
+[537.306s] [ 79%] Built target optimizer_unit_tests
+[537.442s] [ 81%] [32mBuilding CXX object test/CMakeFiles/critics_tests.dir/critics_tests.cpp.o[0m
+[580.785s] [ 83%] [32m[1mLinking CXX executable critics_tests[0m
+[581.785s] [ 83%] Built target critics_tests
+[581.837s] [ 85%] [32mBuilding CXX object test/CMakeFiles/critic_manager_test.dir/critic_manager_test.cpp.o[0m
+[613.872s] [ 87%] [32m[1mLinking CXX executable critic_manager_test[0m
+[614.950s] [ 87%] Built target critic_manager_test
+[614.993s] [ 89%] [32mBuilding CXX object test/CMakeFiles/path_handler_test.dir/path_handler_test.cpp.o[0m
+[649.071s] [ 91%] [32m[1mLinking CXX executable path_handler_test[0m
+[651.764s] [ 91%] Built target path_handler_test
+[651.983s] [ 93%] [32mBuilding CXX object test/CMakeFiles/controller_state_transition_test.dir/controller_state_transition_test.cpp.o[0m
+[693.367s] [ 95%] [32m[1mLinking CXX executable controller_state_transition_test[0m
+[694.349s] [ 95%] Built target controller_state_transition_test
+[694.396s] [ 97%] [32mBuilding CXX object test/CMakeFiles/optimizer_smoke_test.dir/optimizer_smoke_test.cpp.o[0m
+[728.189s] [100%] [32m[1mLinking CXX executable optimizer_smoke_test[0m
+[729.187s] [100%] Built target optimizer_smoke_test
+[729.219s] Invoked command in '/home/jetson/robot_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_mppi_controller -- -j6 -l6
+[729.223s] Invoking command in '/home/jetson/robot_ws/build/nav2_mppi_controller': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_mppi_controller
+[729.238s] -- Install configuration: "Release"
+[729.238s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/lib/libmppi_controller.so
+[729.242s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_mppi_controller/lib/libmppi_controller.so" to ""
+[729.242s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/lib/libmppi_critics.so
+[729.246s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_mppi_controller/lib/libmppi_critics.so" to ""
+[729.246s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include/
+[729.246s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller
+[729.246s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models
+[729.246s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/state.hpp
+[729.246s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/trajectories.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/control_sequence.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/constraints.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/optimizer_settings.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/models/path.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/motion_models.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/controller.hpp
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics
+[729.247s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/obstacles_critic.hpp
+[729.248s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_angle_critic.hpp
+[729.248s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_legacy_critic.hpp
+[729.248s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/twirling_critic.hpp
+[729.248s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/velocity_deadband_critic.hpp
+[729.248s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_align_critic.hpp
+[729.249s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/path_follow_critic.hpp
+[729.249s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_critic.hpp
+[729.250s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/goal_angle_critic.hpp
+[729.250s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/constraint_critic.hpp
+[729.250s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/prefer_forward_critic.hpp
+[729.250s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critics/cost_critic.hpp
+[729.250s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_function.hpp
+[729.250s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools
+[729.251s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/utils.hpp
+[729.251s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/path_handler.hpp
+[729.252s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/trajectory_visualizer.hpp
+[729.252s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/parameters_handler.hpp
+[729.252s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/tools/noise_generator.hpp
+[729.252s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_data.hpp
+[729.252s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/critic_manager.hpp
+[729.252s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/include//nav2_mppi_controller/optimizer.hpp
+[729.253s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.sh
+[729.254s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/library_path.dsv
+[729.254s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/mppic.xml
+[729.254s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/critics.xml
+[729.255s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/package_run_dependencies/nav2_mppi_controller
+[729.256s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/parent_prefix_path/nav2_mppi_controller
+[729.256s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.sh
+[729.256s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/ament_prefix_path.dsv
+[729.257s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.sh
+[729.257s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/environment/path.dsv
+[729.257s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.bash
+[729.258s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.sh
+[729.258s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.zsh
+[729.258s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/local_setup.dsv
+[729.259s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.dsv
+[729.259s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/packages/nav2_mppi_controller
+[729.260s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_mppi_controller
+[729.260s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/ament_index/resource_index/nav2_mppi_controller__pluginlib__plugin/nav2_mppi_controller
+[729.261s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[729.261s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[729.261s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[729.262s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig.cmake
+[729.262s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/cmake/nav2_mppi_controllerConfig-version.cmake
+[729.263s] -- Installing: /home/jetson/robot_ws/install/nav2_mppi_controller/share/nav2_mppi_controller/package.xml
+[729.269s] Invoked command in '/home/jetson/robot_ws/build/nav2_mppi_controller' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_mppi_controller

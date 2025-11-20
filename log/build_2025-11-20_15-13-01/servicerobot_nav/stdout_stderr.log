@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/servicerobot_nav/servicerobot_nav.egg-info
+writing ../../build/servicerobot_nav/servicerobot_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/servicerobot_nav/servicerobot_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/servicerobot_nav/servicerobot_nav.egg-info/entry_points.txt
+writing requirements to ../../build/servicerobot_nav/servicerobot_nav.egg-info/requires.txt
+writing top-level names to ../../build/servicerobot_nav/servicerobot_nav.egg-info/top_level.txt
+writing manifest file '../../build/servicerobot_nav/servicerobot_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/servicerobot_nav/servicerobot_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/servicerobot_nav/servicerobot_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jetson/robot_ws/build/servicerobot_nav/build
+creating /home/jetson/robot_ws/build/servicerobot_nav/build/lib
+creating /home/jetson/robot_ws/build/servicerobot_nav/build/lib/servicerobot_nav
+copying servicerobot_nav/__init__.py -> /home/jetson/robot_ws/build/servicerobot_nav/build/lib/servicerobot_nav
+running install
+running install_lib
+creating /home/jetson/robot_ws/install/servicerobot_nav/lib/python3.10/site-packages/servicerobot_nav
+copying /home/jetson/robot_ws/build/servicerobot_nav/build/lib/servicerobot_nav/__init__.py -> /home/jetson/robot_ws/install/servicerobot_nav/lib/python3.10/site-packages/servicerobot_nav
+byte-compiling /home/jetson/robot_ws/install/servicerobot_nav/lib/python3.10/site-packages/servicerobot_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jetson/robot_ws/install/servicerobot_nav/share/ament_index
+creating /home/jetson/robot_ws/install/servicerobot_nav/share/ament_index/resource_index
+creating /home/jetson/robot_ws/install/servicerobot_nav/share/ament_index/resource_index/packages
+copying resource/servicerobot_nav -> /home/jetson/robot_ws/install/servicerobot_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav
+creating /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/launch
+copying launch/navigation_launch.py -> /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/launch
+creating /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/config
+copying config/amcl_params.yaml -> /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/config
+copying config/costmap.yaml -> /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/config
+copying config/servicerobot_map.yaml -> /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/config
+copying config/servicerobot_map.pgm -> /home/jetson/robot_ws/install/servicerobot_nav/share/servicerobot_nav/config
+running install_egg_info
+Copying ../../build/servicerobot_nav/servicerobot_nav.egg-info to /home/jetson/robot_ws/install/servicerobot_nav/lib/python3.10/site-packages/servicerobot_nav-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/jetson/robot_ws/build/servicerobot_nav/install.log'

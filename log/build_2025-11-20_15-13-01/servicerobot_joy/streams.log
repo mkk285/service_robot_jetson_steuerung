@@ -1,0 +1,21 @@
+[2.628s] Invoking command in '/home/jetson/robot_ws/src/servicerobot_joy': PYTHONPATH=/home/jetson/robot_ws/build/servicerobot_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicerobot_joy build --build-base /home/jetson/robot_ws/build/servicerobot_joy/build install --record /home/jetson/robot_ws/build/servicerobot_joy/install.log --single-version-externally-managed install_data
+[3.318s] running egg_info
+[3.320s] writing ../../build/servicerobot_joy/servicerobot_joy.egg-info/PKG-INFO
+[3.323s] writing dependency_links to ../../build/servicerobot_joy/servicerobot_joy.egg-info/dependency_links.txt
+[3.323s] writing entry points to ../../build/servicerobot_joy/servicerobot_joy.egg-info/entry_points.txt
+[3.323s] writing requirements to ../../build/servicerobot_joy/servicerobot_joy.egg-info/requires.txt
+[3.323s] writing top-level names to ../../build/servicerobot_joy/servicerobot_joy.egg-info/top_level.txt
+[3.332s] reading manifest file '../../build/servicerobot_joy/servicerobot_joy.egg-info/SOURCES.txt'
+[3.335s] writing manifest file '../../build/servicerobot_joy/servicerobot_joy.egg-info/SOURCES.txt'
+[3.336s] running build
+[3.336s] running build_py
+[3.337s] running install
+[3.338s] running install_lib
+[3.341s] running install_data
+[3.342s] running install_egg_info
+[3.346s] removing '/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy-0.0.0-py3.10.egg-info' (and everything under it)
+[3.347s] Copying ../../build/servicerobot_joy/servicerobot_joy.egg-info to /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy-0.0.0-py3.10.egg-info
+[3.357s] running install_scripts
+[3.419s] Installing joy_control_node script to /home/jetson/robot_ws/install/servicerobot_joy/lib/servicerobot_joy
+[3.420s] writing list of installed files to '/home/jetson/robot_ws/build/servicerobot_joy/install.log'
+[3.518s] Invoked command in '/home/jetson/robot_ws/src/servicerobot_joy' returned '0': PYTHONPATH=/home/jetson/robot_ws/build/servicerobot_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicerobot_joy build --build-base /home/jetson/robot_ws/build/servicerobot_joy/build install --record /home/jetson/robot_ws/build/servicerobot_joy/install.log --single-version-externally-managed install_data

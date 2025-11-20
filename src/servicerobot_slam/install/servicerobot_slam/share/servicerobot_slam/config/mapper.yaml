@@ -1,0 +1,35 @@
+slam_toolbox:
+  ros__parameters:
+
+    # Grundlegender SLAM Modus
+    mode: "mapping"
+    use_sim_time: false
+    solver_plugin: "solver_plugins::CeresSolver"
+
+    # Frames
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    scan_topic: "/scan"
+
+    # Odometrie aktiv
+    use_odometry: true
+    use_scan_matching: true
+    use_scan_barycenter: true
+
+    # Update Verhalten
+    transform_timeout: 0.5
+    scan_queue_size: 50
+
+    # Map Update (für Drehung wichtig!)
+    linear_update_distance: 0.01
+    angular_update_distance: 0.01
+    map_update_interval: 0.2
+
+    # Scan-Range
+    max_laser_range: 12.0
+    min_laser_range: 0.15
+
+    # Scan Matcher Einstellungen
+    minimum_score_threshold: 0.0
+    resolution: 0.03

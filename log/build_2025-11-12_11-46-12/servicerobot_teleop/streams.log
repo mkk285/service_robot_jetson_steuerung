@@ -1,0 +1,37 @@
+[1.086s] Invoking command in '/home/jetson/robot_ws/src/servicerobot_teleop': PYTHONPATH=/home/jetson/robot_ws/build/servicerobot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicerobot_teleop build --build-base /home/jetson/robot_ws/build/servicerobot_teleop/build install --record /home/jetson/robot_ws/build/servicerobot_teleop/install.log --single-version-externally-managed install_data
+[1.494s] running egg_info
+[1.495s] creating ../../build/servicerobot_teleop/servicerobot_teleop.egg-info
+[1.495s] writing ../../build/servicerobot_teleop/servicerobot_teleop.egg-info/PKG-INFO
+[1.496s] writing dependency_links to ../../build/servicerobot_teleop/servicerobot_teleop.egg-info/dependency_links.txt
+[1.496s] writing entry points to ../../build/servicerobot_teleop/servicerobot_teleop.egg-info/entry_points.txt
+[1.496s] writing requirements to ../../build/servicerobot_teleop/servicerobot_teleop.egg-info/requires.txt
+[1.496s] writing top-level names to ../../build/servicerobot_teleop/servicerobot_teleop.egg-info/top_level.txt
+[1.497s] writing manifest file '../../build/servicerobot_teleop/servicerobot_teleop.egg-info/SOURCES.txt'
+[1.499s] reading manifest file '../../build/servicerobot_teleop/servicerobot_teleop.egg-info/SOURCES.txt'
+[1.501s] writing manifest file '../../build/servicerobot_teleop/servicerobot_teleop.egg-info/SOURCES.txt'
+[1.501s] running build
+[1.501s] running build_py
+[1.501s] creating /home/jetson/robot_ws/build/servicerobot_teleop/build
+[1.501s] creating /home/jetson/robot_ws/build/servicerobot_teleop/build/lib
+[1.501s] creating /home/jetson/robot_ws/build/servicerobot_teleop/build/lib/servicerobot_teleop
+[1.502s] copying servicerobot_teleop/teleop_node.py -> /home/jetson/robot_ws/build/servicerobot_teleop/build/lib/servicerobot_teleop
+[1.502s] copying servicerobot_teleop/__init__.py -> /home/jetson/robot_ws/build/servicerobot_teleop/build/lib/servicerobot_teleop
+[1.502s] running install
+[1.503s] running install_lib
+[1.504s] creating /home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages/servicerobot_teleop
+[1.504s] copying /home/jetson/robot_ws/build/servicerobot_teleop/build/lib/servicerobot_teleop/teleop_node.py -> /home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages/servicerobot_teleop
+[1.504s] copying /home/jetson/robot_ws/build/servicerobot_teleop/build/lib/servicerobot_teleop/__init__.py -> /home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages/servicerobot_teleop
+[1.505s] byte-compiling /home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages/servicerobot_teleop/teleop_node.py to teleop_node.cpython-310.pyc
+[1.507s] byte-compiling /home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages/servicerobot_teleop/__init__.py to __init__.cpython-310.pyc
+[1.507s] running install_data
+[1.507s] creating /home/jetson/robot_ws/install/servicerobot_teleop/share/ament_index
+[1.507s] creating /home/jetson/robot_ws/install/servicerobot_teleop/share/ament_index/resource_index
+[1.507s] creating /home/jetson/robot_ws/install/servicerobot_teleop/share/ament_index/resource_index/packages
+[1.508s] copying resource/servicerobot_teleop -> /home/jetson/robot_ws/install/servicerobot_teleop/share/ament_index/resource_index/packages
+[1.508s] copying package.xml -> /home/jetson/robot_ws/install/servicerobot_teleop/share/servicerobot_teleop
+[1.508s] running install_egg_info
+[1.511s] Copying ../../build/servicerobot_teleop/servicerobot_teleop.egg-info to /home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages/servicerobot_teleop-0.0.0-py3.10.egg-info
+[1.513s] running install_scripts
+[1.550s] Installing teleop_node script to /home/jetson/robot_ws/install/servicerobot_teleop/lib/servicerobot_teleop
+[1.551s] writing list of installed files to '/home/jetson/robot_ws/build/servicerobot_teleop/install.log'
+[1.610s] Invoked command in '/home/jetson/robot_ws/src/servicerobot_teleop' returned '0': PYTHONPATH=/home/jetson/robot_ws/build/servicerobot_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servicerobot_teleop build --build-base /home/jetson/robot_ws/build/servicerobot_teleop/build install --record /home/jetson/robot_ws/build/servicerobot_teleop/install.log --single-version-externally-managed install_data

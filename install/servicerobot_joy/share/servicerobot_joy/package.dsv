@@ -1,0 +1,6 @@
+source;share/servicerobot_joy/hook/pythonpath.ps1
+source;share/servicerobot_joy/hook/pythonpath.dsv
+source;share/servicerobot_joy/hook/pythonpath.sh
+source;share/servicerobot_joy/hook/ament_prefix_path.ps1
+source;share/servicerobot_joy/hook/ament_prefix_path.dsv
+source;share/servicerobot_joy/hook/ament_prefix_path.sh

@@ -1,0 +1,93 @@
+[0.097s] Invoking command in '/home/jetson/robot_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_voxel_grid
+[0.340s] -- The C compiler identification is GNU 11.4.0
+[0.462s] -- The CXX compiler identification is GNU 11.4.0
+[0.476s] -- Detecting C compiler ABI info
+[0.669s] -- Detecting C compiler ABI info - done
+[0.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.686s] -- Detecting C compile features
+[0.686s] -- Detecting C compile features - done
+[0.692s] -- Detecting CXX compiler ABI info
+[0.882s] -- Detecting CXX compiler ABI info - done
+[0.895s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.896s] -- Detecting CXX compile features
+[0.897s] -- Detecting CXX compile features - done
+[0.902s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.245s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.489s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[1.493s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.660s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.681s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.713s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.766s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.809s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.886s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.890s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.051s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.141s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.232s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.250s] -- Looking for pthread.h
+[2.450s] -- Looking for pthread.h - found
+[2.450s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.652s] -- Found Threads: TRUE  
+[2.740s] -- Setting build type to Release as none was specified.
+[2.745s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.942s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.971s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.971s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_voxel_grid/include
+[2.971s] -- Configured cppcheck exclude dirs and/or files: 
+[2.978s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.978s] -- Configured cpplint exclude dirs and/or files: 
+[2.980s] -- Added test 'lint_cmake' to check CMake code style
+[2.982s] -- Added test 'uncrustify' to check C / C++ code style
+[2.982s] -- Configured uncrustify additional arguments: 
+[2.987s] -- Added test 'xmllint' to check XML markup files
+[2.994s] -- Configuring done
+[3.057s] -- Generating done
+[3.070s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_voxel_grid
+[3.115s] Invoked command in '/home/jetson/robot_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_voxel_grid -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_voxel_grid
+[3.131s] Invoking command in '/home/jetson/robot_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_voxel_grid -- -j6 -l6
+[3.268s] [ 10%] [32mBuilding CXX object CMakeFiles/voxel_grid.dir/src/voxel_grid.cpp.o[0m
+[11.307s] [ 20%] [32m[1mLinking CXX shared library libvoxel_grid.so[0m
+[11.503s] [ 20%] Built target voxel_grid
+[11.543s] [ 30%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[28.734s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[28.808s] [ 40%] Built target gtest
+[28.850s] [ 50%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[30.899s] [ 60%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[30.964s] [ 60%] Built target gtest_main
+[31.007s] [ 70%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_tests.dir/voxel_grid_tests.cpp.o[0m
+[39.413s] [ 80%] [32m[1mLinking CXX executable voxel_grid_tests[0m
+[39.650s] [ 80%] Built target voxel_grid_tests
+[39.689s] [ 90%] [32mBuilding CXX object test/CMakeFiles/voxel_grid_bresenham_3d.dir/voxel_grid_bresenham_3d.cpp.o[0m
+[49.037s] [100%] [32m[1mLinking CXX executable voxel_grid_bresenham_3d[0m
+[49.450s] [100%] Built target voxel_grid_bresenham_3d
+[49.506s] Invoked command in '/home/jetson/robot_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_voxel_grid -- -j6 -l6
+[49.507s] Invoking command in '/home/jetson/robot_ws/build/nav2_voxel_grid': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_voxel_grid
+[49.522s] -- Install configuration: "Release"
+[49.522s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so
+[49.523s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_voxel_grid/lib/libvoxel_grid.so" to ""
+[49.523s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/include
+[49.523s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/include/nav2_voxel_grid
+[49.524s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/include/nav2_voxel_grid/voxel_grid.hpp
+[49.524s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.sh
+[49.525s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/library_path.dsv
+[49.525s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/ament_index/resource_index/package_run_dependencies/nav2_voxel_grid
+[49.525s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/ament_index/resource_index/parent_prefix_path/nav2_voxel_grid
+[49.526s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.sh
+[49.526s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/ament_prefix_path.dsv
+[49.526s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.sh
+[49.526s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/environment/path.dsv
+[49.527s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.bash
+[49.527s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.sh
+[49.527s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.zsh
+[49.527s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/local_setup.dsv
+[49.528s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.dsv
+[49.528s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/ament_index/resource_index/packages/nav2_voxel_grid
+[49.529s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_dependencies-extras.cmake
+[49.529s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_include_directories-extras.cmake
+[49.529s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/ament_cmake_export_libraries-extras.cmake
+[49.529s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig.cmake
+[49.530s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/cmake/nav2_voxel_gridConfig-version.cmake
+[49.530s] -- Installing: /home/jetson/robot_ws/install/nav2_voxel_grid/share/nav2_voxel_grid/package.xml
+[49.536s] Invoked command in '/home/jetson/robot_ws/build/nav2_voxel_grid' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble PYTHONPATH=/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_voxel_grid

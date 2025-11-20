@@ -1,0 +1,4 @@
+source;share/servicerobot_slam/local_setup.bash
+source;share/servicerobot_slam/local_setup.dsv
+source;share/servicerobot_slam/local_setup.sh
+source;share/servicerobot_slam/local_setup.zsh

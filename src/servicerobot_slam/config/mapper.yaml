@@ -1,0 +1,37 @@
+slam_toolbox:
+  ros__parameters:
+
+    use_message_timestamps: true
+    transform_timeout: 1.0
+
+    # Grundkonfiguration
+    solver_plugin: "solver_plugins::CeresSolver"
+    use_sim_time: false
+    mode: "mapping"
+
+    # Frames
+    map_frame: "map"
+    odom_frame: "odom"
+    base_frame: "base_link"
+    scan_topic: "/scan"
+
+    # Fusion
+    use_scan_matching: true
+    use_scan_barycenter: true
+    use_odometry: true
+
+    # Map Update Trigger
+    minimum_travel_distance: 0.05      # Karte baut sich bei Vorwärtsfahrt auf
+    minimum_travel_heading: 0.05       # Drehungen auf der Stelle ignoriert
+    map_update_interval: 1.0
+
+    # Sensorwerte
+    max_laser_range: 12.0
+    min_laser_range: 0.2
+
+    # Scan matching Toleranz
+    minimum_score_threshold: 0.0
+
+    # Queues / Buffer
+    scan_queue_size: 100
+    tf_buffer_duration: 10.0

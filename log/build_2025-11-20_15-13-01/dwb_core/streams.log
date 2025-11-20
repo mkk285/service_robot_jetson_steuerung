@@ -1,0 +1,109 @@
+[0.064s] Invoking command in '/home/jetson/robot_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/dwb_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_dwb_controller/dwb_core -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/dwb_core
+[0.198s] -- The C compiler identification is GNU 11.4.0
+[0.338s] -- The CXX compiler identification is GNU 11.4.0
+[0.352s] -- Detecting C compiler ABI info
+[0.724s] -- Detecting C compiler ABI info - done
+[0.740s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.748s] -- Detecting C compile features
+[0.748s] -- Detecting C compile features - done
+[0.755s] -- Detecting CXX compiler ABI info
+[1.207s] -- Detecting CXX compiler ABI info - done
+[1.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.235s] -- Detecting CXX compile features
+[1.236s] -- Detecting CXX compile features - done
+[1.259s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.021s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.491s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[2.496s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.701s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.723s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.770s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.913s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.141s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.157s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.762s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.892s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.149s] -- Looking for pthread.h
+[4.656s] -- Looking for pthread.h - found
+[4.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.087s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.090s] -- Found Threads: TRUE  
+[5.312s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.360s] -- Found nav_2d_msgs: 1.1.20 (/home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[5.422s] -- Found dwb_msgs: 1.1.20 (/home/jetson/robot_ws/install/dwb_msgs/share/dwb_msgs/cmake)
+[5.555s] -- Found nav2_costmap_2d: 1.1.20 (/home/jetson/robot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[6.368s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.368s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.755s] -- Found nav_2d_utils: 1.1.20 (/home/jetson/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[6.778s] -- Found nav2_core: 1.1.20 (/home/jetson/robot_ws/install/nav2_core/share/nav2_core/cmake)
+[6.819s] -- Setting build type to Release as none was specified.
+[7.531s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.908s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.941s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.942s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_dwb_controller/dwb_core/include
+[7.942s] -- Configured cppcheck exclude dirs and/or files: 
+[7.944s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.945s] -- Configured cpplint exclude dirs and/or files: 
+[7.946s] -- Added test 'lint_cmake' to check CMake code style
+[7.967s] -- Added test 'uncrustify' to check C / C++ code style
+[7.967s] -- Configured uncrustify additional arguments: 
+[7.967s] -- Added test 'xmllint' to check XML markup files
+[7.975s] -- Configuring done
+[8.274s] -- Generating done
+[8.303s] -- Build files have been written to: /home/jetson/robot_ws/build/dwb_core
+[8.390s] Invoked command in '/home/jetson/robot_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/dwb_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_dwb_controller/dwb_core -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/dwb_core
+[8.401s] Invoking command in '/home/jetson/robot_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/dwb_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/dwb_core -- -j6 -l6
+[11.393s] [  9%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/dwb_local_planner.cpp.o[0m
+[43.988s] [ 18%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/trajectory_utils.cpp.o[0m
+[50.993s] [ 27%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/illegal_trajectory_tracker.cpp.o[0m
+[52.773s] [ 36%] [32mBuilding CXX object CMakeFiles/dwb_core.dir/src/publisher.cpp.o[0m
+[78.513s] [ 45%] [32m[1mLinking CXX shared library libdwb_core.so[0m
+[79.428s] [ 45%] Built target dwb_core
+[79.472s] [ 54%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[96.936s] [ 63%] [32m[1mLinking CXX static library libgtest.a[0m
+[97.018s] [ 63%] Built target gtest
+[97.062s] [ 72%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[99.115s] [ 81%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[99.188s] [ 81%] Built target gtest_main
+[99.236s] [ 90%] [32mBuilding CXX object test/CMakeFiles/utils_test.dir/utils_test.cpp.o[0m
+[110.262s] [100%] [32m[1mLinking CXX executable utils_test[0m
+[110.952s] [100%] Built target utils_test
+[110.980s] Invoked command in '/home/jetson/robot_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/dwb_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/dwb_core -- -j6 -l6
+[110.991s] Invoking command in '/home/jetson/robot_ws/build/dwb_core': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/dwb_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/dwb_core
+[111.899s] -- Install configuration: "Release"
+[111.899s] -- Installing: /home/jetson/robot_ws/install/dwb_core/lib/libdwb_core.so
+[111.904s] -- Set runtime path of "/home/jetson/robot_ws/install/dwb_core/lib/libdwb_core.so" to ""
+[111.904s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include/
+[111.904s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core
+[111.904s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/trajectory_utils.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/illegal_trajectory_tracker.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/trajectory_critic.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/publisher.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/exceptions.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/trajectory_generator.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/include//dwb_core/dwb_local_planner.hpp
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/environment/library_path.sh
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/environment/library_path.dsv
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/local_planner_plugin.xml
+[111.905s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/ament_index/resource_index/package_run_dependencies/dwb_core
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/ament_index/resource_index/parent_prefix_path/dwb_core
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.sh
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/environment/ament_prefix_path.dsv
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/environment/path.sh
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/environment/path.dsv
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/local_setup.bash
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/local_setup.sh
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/local_setup.zsh
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/local_setup.dsv
+[111.906s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/package.dsv
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/ament_index/resource_index/packages/dwb_core
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/ament_index/resource_index/nav2_core__pluginlib__plugin/dwb_core
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_include_directories-extras.cmake
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_libraries-extras.cmake
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/cmake/ament_cmake_export_dependencies-extras.cmake
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig.cmake
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/cmake/dwb_coreConfig-version.cmake
+[111.907s] -- Installing: /home/jetson/robot_ws/install/dwb_core/share/dwb_core/package.xml
+[111.927s] Invoked command in '/home/jetson/robot_ws/build/dwb_core' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/dwb_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/dwb_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/dwb_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/dwb_core

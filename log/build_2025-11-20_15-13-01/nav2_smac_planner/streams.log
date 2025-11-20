@@ -1,0 +1,212 @@
+[0.162s] Invoking command in '/home/jetson/robot_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_smac_planner
+[23.708s] -- The C compiler identification is GNU 11.4.0
+[23.709s] -- The CXX compiler identification is GNU 11.4.0
+[23.709s] -- Detecting C compiler ABI info
+[23.709s] -- Detecting C compiler ABI info - done
+[23.709s] -- Check for working C compiler: /usr/bin/cc - skipped
+[23.709s] -- Detecting C compile features
+[23.709s] -- Detecting C compile features - done
+[23.709s] -- Detecting CXX compiler ABI info
+[23.709s] -- Detecting CXX compiler ABI info - done
+[23.709s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[23.710s] -- Detecting CXX compile features
+[23.710s] -- Detecting CXX compile features - done
+[23.710s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[23.710s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.710s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[23.710s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[23.710s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[23.710s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[23.710s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[23.710s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[23.710s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[23.711s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[23.711s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[23.711s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[23.711s] -- Found FastRTPS: /opt/ros/humble/include  
+[23.711s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[23.711s] -- Looking for pthread.h
+[23.711s] -- Looking for pthread.h - found
+[23.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[23.711s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[23.711s] -- Found Threads: TRUE  
+[23.712s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[23.712s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[23.712s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[23.712s] -- Found nav2_util: 1.1.20 (/home/jetson/robot_ws/install/nav2_util/share/nav2_util/cmake)
+[23.712s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[23.712s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[23.712s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[23.712s] -- Found nav2_core: 1.1.20 (/home/jetson/robot_ws/install/nav2_core/share/nav2_core/cmake)
+[23.712s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: serialization filesystem system 
+[23.712s] -- Found ompl: /opt/ros/humble/include/ompl-1.7;/usr/include;/usr/include/eigen3  
+[23.713s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[23.713s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[23.713s] -- Found OpenMP: TRUE (found version "4.5")  
+[23.713s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[23.713s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[23.713s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[23.713s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[23.713s] -- Added test 'copyright' to check source files copyright and LICENSE
+[23.713s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[23.713s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_smac_planner/include
+[23.714s] -- Configured cppcheck exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[23.714s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[23.714s] -- Configured cpplint exclude dirs and/or files: include/nav2_smac_planner/thirdparty/robin_hood.h
+[23.714s] -- Added test 'flake8' to check Python code syntax and style conventions
+[23.714s] -- Added test 'lint_cmake' to check CMake code style
+[23.714s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[23.714s] -- Added test 'uncrustify' to check C / C++ code style
+[23.714s] -- Configured uncrustify additional arguments: 
+[23.714s] -- Added test 'xmllint' to check XML markup files
+[23.714s] -- Configuring done
+[23.714s] -- Generating done
+[23.715s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_smac_planner
+[23.737s] Invoked command in '/home/jetson/robot_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_smac_planner -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_smac_planner
+[23.738s] Invoking command in '/home/jetson/robot_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_smac_planner -- -j6 -l6
+[23.998s] [  1%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smac_planner_hybrid.cpp.o[0m
+[54.278s] [  3%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/a_star.cpp.o[0m
+[77.184s] [  5%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/collision_checker.cpp.o[0m
+[85.293s] [  6%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/smoother.cpp.o[0m
+[100.282s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/analytic_expansion.cpp.o[0m
+[112.352s] [ 10%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_hybrid.cpp.o[0m
+[143.852s] [ 11%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_lattice.cpp.o[0m
+[175.112s] [ 13%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/costmap_downsampler.cpp.o[0m
+[186.687s] [ 15%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_2d.cpp.o[0m
+[200.133s] [ 16%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner.dir/src/node_basic.cpp.o[0m
+[214.998s] [ 18%] [32m[1mLinking CXX shared library libnav2_smac_planner.so[0m
+[217.411s] [ 18%] Built target nav2_smac_planner
+[217.456s] [ 20%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[234.695s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[234.771s] [ 22%] Built target gtest
+[234.813s] [ 23%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[236.725s] [ 25%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[236.792s] [ 25%] Built target gtest_main
+[236.839s] [ 27%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smac_planner_lattice.cpp.o[0m
+[246.883s] [ 28%] [32mBuilding CXX object test/CMakeFiles/test_nodebasic.dir/test_nodebasic.cpp.o[0m
+[248.987s] [ 30%] [32mBuilding CXX object test/CMakeFiles/test_nodehybrid.dir/test_nodehybrid.cpp.o[0m
+[251.092s] [ 32%] [32mBuilding CXX object test/CMakeFiles/test_node2d.dir/test_node2d.cpp.o[0m
+[271.311s] [ 33%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/a_star.cpp.o[0m
+[272.838s] [ 35%] [32m[1mLinking CXX executable test_nodebasic[0m
+[273.847s] [ 35%] Built target test_nodebasic
+[277.803s] [ 37%] [32m[1mLinking CXX executable test_node2d[0m
+[278.564s] [ 38%] [32m[1mLinking CXX executable test_nodehybrid[0m
+[278.913s] [ 38%] Built target test_node2d
+[279.687s] [ 38%] Built target test_nodehybrid
+[292.547s] [ 40%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/analytic_expansion.cpp.o[0m
+[310.013s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/collision_checker.cpp.o[0m
+[318.577s] [ 44%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/smoother.cpp.o[0m
+[333.487s] [ 45%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_hybrid.cpp.o[0m
+[346.639s] [ 47%] [32mBuilding CXX object test/CMakeFiles/test_smac_hybrid.dir/test_smac_hybrid.cpp.o[0m
+[347.757s] [ 49%] [32mBuilding CXX object test/CMakeFiles/test_a_star.dir/test_a_star.cpp.o[0m
+[348.823s] [ 50%] [32mBuilding CXX object test/CMakeFiles/test_collision_checker.dir/test_collision_checker.cpp.o[0m
+[349.915s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_costmap_downsampler.dir/test_costmap_downsampler.cpp.o[0m
+[351.043s] [ 54%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smac_planner_2d.cpp.o[0m
+[353.575s] [ 55%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_lattice.cpp.o[0m
+[376.581s] [ 57%] [32m[1mLinking CXX executable test_collision_checker[0m
+[376.989s] [ 59%] [32m[1mLinking CXX executable test_costmap_downsampler[0m
+[379.250s] [ 59%] Built target test_collision_checker
+[379.858s] [ 59%] Built target test_costmap_downsampler
+[393.795s] [ 61%] [32m[1mLinking CXX executable test_a_star[0m
+[395.363s] [ 61%] Built target test_a_star
+[396.220s] [ 62%] [32m[1mLinking CXX executable test_smac_hybrid[0m
+[397.587s] [ 62%] Built target test_smac_hybrid
+[404.010s] [ 64%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/a_star.cpp.o[0m
+[405.133s] [ 66%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_basic.cpp.o[0m
+[420.745s] [ 67%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/node_2d.cpp.o[0m
+[425.257s] [ 69%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/collision_checker.cpp.o[0m
+[433.543s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/analytic_expansion.cpp.o[0m
+[434.664s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_lattice.dir/src/costmap_downsampler.cpp.o[0m
+[445.710s] [ 74%] [32m[1mLinking CXX shared library libnav2_smac_planner_lattice.so[0m
+[447.902s] [ 74%] Built target nav2_smac_planner_lattice
+[451.210s] [ 76%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_lattice.cpp.o[0m
+[467.245s] [ 77%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/costmap_downsampler.cpp.o[0m
+[469.299s] [ 79%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_hybrid.cpp.o[0m
+[470.360s] [ 81%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/smoother.cpp.o[0m
+[492.749s] [ 83%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_basic.cpp.o[0m
+[506.986s] [ 84%] [32mBuilding CXX object CMakeFiles/nav2_smac_planner_2d.dir/src/node_2d.cpp.o[0m
+[519.007s] [ 86%] [32m[1mLinking CXX shared library libnav2_smac_planner_2d.so[0m
+[520.316s] [ 86%] Built target nav2_smac_planner_2d
+[520.361s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_smac_2d.dir/test_smac_2d.cpp.o[0m
+[520.361s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_smac_lattice.dir/test_smac_lattice.cpp.o[0m
+[520.361s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_lattice_node.dir/test_nodelattice.cpp.o[0m
+[542.080s] [ 93%] [32m[1mLinking CXX executable test_smac_lattice[0m
+[543.068s] [ 93%] Built target test_smac_lattice
+[543.111s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_smoother.dir/test_smoother.cpp.o[0m
+[543.178s] [ 96%] [32m[1mLinking CXX executable test_smac_2d[0m
+[544.108s] [ 96%] Built target test_smac_2d
+[546.035s] [ 98%] [32m[1mLinking CXX executable test_lattice_node[0m
+[546.957s] [ 98%] Built target test_lattice_node
+[569.106s] [100%] [32m[1mLinking CXX executable test_smoother[0m
+[570.659s] [100%] Built target test_smoother
+[570.717s] Invoked command in '/home/jetson/robot_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_smac_planner -- -j6 -l6
+[570.741s] Invoking command in '/home/jetson/robot_ws/build/nav2_smac_planner': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_smac_planner
+[570.765s] -- Install configuration: "Release"
+[570.766s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_hybrid.xml
+[570.766s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_2d.xml
+[570.766s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/smac_plugin_lattice.xml
+[570.767s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so
+[570.770s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smac_planner/lib/libnav2_smac_planner.so" to ""
+[570.770s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so
+[570.772s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_2d.so" to ""
+[570.772s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so
+[570.774s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smac_planner/lib/libnav2_smac_planner_lattice.so" to ""
+[570.774s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include/
+[570.775s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner
+[570.775s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_2d.hpp
+[570.775s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/collision_checker.hpp
+[570.775s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_2d.hpp
+[570.775s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_lattice.hpp
+[570.775s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_hybrid.hpp
+[570.776s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/analytic_expansion.hpp
+[570.776s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/utils.hpp
+[570.776s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_basic.hpp
+[570.776s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/a_star.hpp
+[570.776s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty
+[570.777s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/thirdparty/robin_hood.h
+[570.781s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/costmap_downsampler.hpp
+[570.782s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/constants.hpp
+[570.782s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/smoother.hpp
+[570.782s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/smac_planner_lattice.hpp
+[570.782s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/node_hybrid.hpp
+[570.782s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/include//nav2_smac_planner/types.hpp
+[570.793s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives
+[570.793s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution
+[570.794s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius
+[570.794s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/all_trajectories.png
+[570.794s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff
+[570.794s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/diff/output.json
+[570.795s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni
+[570.795s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/omni/output.json
+[570.796s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann
+[570.796s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/1m_turning_radius/ackermann/output.json
+[570.797s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius
+[570.797s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/all_trajectories.png
+[570.798s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff
+[570.798s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json
+[570.799s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni
+[570.799s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/omni/output.json
+[570.800s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann
+[570.800s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/ackermann/output.json
+[570.801s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.sh
+[570.802s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/library_path.dsv
+[570.803s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/ament_index/resource_index/package_run_dependencies/nav2_smac_planner
+[570.812s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/ament_index/resource_index/parent_prefix_path/nav2_smac_planner
+[570.813s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.sh
+[570.814s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/ament_prefix_path.dsv
+[570.814s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.sh
+[570.814s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/environment/path.dsv
+[570.814s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.bash
+[570.815s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.sh
+[570.815s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.zsh
+[570.815s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/local_setup.dsv
+[570.816s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.dsv
+[570.816s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/ament_index/resource_index/packages/nav2_smac_planner
+[570.817s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smac_planner
+[570.821s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_include_directories-extras.cmake
+[570.822s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_libraries-extras.cmake
+[570.822s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/ament_cmake_export_dependencies-extras.cmake
+[570.823s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig.cmake
+[570.823s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/cmake/nav2_smac_plannerConfig-version.cmake
+[570.824s] -- Installing: /home/jetson/robot_ws/install/nav2_smac_planner/share/nav2_smac_planner/package.xml
+[570.831s] Invoked command in '/home/jetson/robot_ws/build/nav2_smac_planner' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_smac_planner

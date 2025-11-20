@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000540] (-) JobUnselected: {'identifier': 'costmap_queue'}
+[0.000995] (-) JobUnselected: {'identifier': 'dwb_core'}
+[0.001246] (-) JobUnselected: {'identifier': 'dwb_critics'}
+[0.001430] (-) JobUnselected: {'identifier': 'dwb_msgs'}
+[0.001507] (-) JobUnselected: {'identifier': 'dwb_plugins'}
+[0.001634] (-) JobUnselected: {'identifier': 'nav2_amcl'}
+[0.001696] (-) JobUnselected: {'identifier': 'nav2_behavior_tree'}
+[0.001730] (-) JobUnselected: {'identifier': 'nav2_behaviors'}
+[0.001763] (-) JobUnselected: {'identifier': 'nav2_bringup'}
+[0.001812] (-) JobUnselected: {'identifier': 'nav2_bt_navigator'}
+[0.001845] (-) JobUnselected: {'identifier': 'nav2_collision_monitor'}
+[0.001875] (-) JobUnselected: {'identifier': 'nav2_common'}
+[0.001916] (-) JobUnselected: {'identifier': 'nav2_constrained_smoother'}
+[0.002226] (-) JobUnselected: {'identifier': 'nav2_controller'}
+[0.002298] (-) JobUnselected: {'identifier': 'nav2_core'}
+[0.002408] (-) JobUnselected: {'identifier': 'nav2_costmap_2d'}
+[0.002466] (-) JobUnselected: {'identifier': 'nav2_dwb_controller'}
+[0.002499] (-) JobUnselected: {'identifier': 'nav2_graceful_controller'}
+[0.002532] (-) JobUnselected: {'identifier': 'nav2_lifecycle_manager'}
+[0.002578] (-) JobUnselected: {'identifier': 'nav2_map_server'}
+[0.002610] (-) JobUnselected: {'identifier': 'nav2_mppi_controller'}
+[0.002810] (-) JobUnselected: {'identifier': 'nav2_msgs'}
+[0.002872] (-) JobUnselected: {'identifier': 'nav2_navfn_planner'}
+[0.002967] (-) JobUnselected: {'identifier': 'nav2_planner'}
+[0.003021] (-) JobUnselected: {'identifier': 'nav2_regulated_pure_pursuit_controller'}
+[0.003054] (-) JobUnselected: {'identifier': 'nav2_rotation_shim_controller'}
+[0.003085] (-) JobUnselected: {'identifier': 'nav2_route'}
+[0.003129] (-) JobUnselected: {'identifier': 'nav2_rviz_plugins'}
+[0.003161] (-) JobUnselected: {'identifier': 'nav2_simple_commander'}
+[0.003416] (-) JobUnselected: {'identifier': 'nav2_smac_planner'}
+[0.003486] (-) JobUnselected: {'identifier': 'nav2_smoother'}
+[0.003545] (-) JobUnselected: {'identifier': 'nav2_system_tests'}
+[0.003602] (-) JobUnselected: {'identifier': 'nav2_theta_star_planner'}
+[0.003659] (-) JobUnselected: {'identifier': 'nav2_util'}
+[0.003717] (-) JobUnselected: {'identifier': 'nav2_velocity_smoother'}
+[0.003773] (-) JobUnselected: {'identifier': 'nav2_voxel_grid'}
+[0.003829] (-) JobUnselected: {'identifier': 'nav2_waypoint_follower'}
+[0.003896] (-) JobUnselected: {'identifier': 'nav_2d_msgs'}
+[0.003958] (-) JobUnselected: {'identifier': 'nav_2d_utils'}
+[0.004004] (-) JobUnselected: {'identifier': 'navigation2'}
+[0.004100] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004154] (-) JobUnselected: {'identifier': 'servicerobot_nav'}
+[0.004185] (-) JobUnselected: {'identifier': 'servicerobot_slam'}
+[0.004218] (-) JobUnselected: {'identifier': 'servicerobot_teleop'}
+[0.004268] (servicerobot_joy) JobQueued: {'identifier': 'servicerobot_joy', 'dependencies': OrderedDict()}
+[0.004310] (servicerobot_joy) JobStarted: {'identifier': 'servicerobot_joy'}
+[0.099392] (-) TimerEvent: {}
+[0.199932] (-) TimerEvent: {}
+[0.300461] (-) TimerEvent: {}
+[0.401010] (-) TimerEvent: {}
+[0.501524] (-) TimerEvent: {}
+[0.602052] (-) TimerEvent: {}
+[0.702594] (-) TimerEvent: {}
+[0.803111] (-) TimerEvent: {}
+[0.903612] (-) TimerEvent: {}
+[1.004135] (-) TimerEvent: {}
+[1.082717] (servicerobot_joy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/servicerobot_joy', 'build', '--build-base', '/home/jetson/robot_ws/build/servicerobot_joy/build', 'install', '--record', '/home/jetson/robot_ws/build/servicerobot_joy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jetson/robot_ws/src/servicerobot_joy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jetson', 'SSH_CLIENT': '192.168.0.103 61470 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/jetson', 'OLDPWD': '/home/jetson/robot_ws/src/servicerobot_joy', 'SSH_TTY': '/dev/pts/5', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/jetson/robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jetson', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '42', 'AMENT_PREFIX_PATH': '/home/jetson/robot_ws/install/servicerobot_teleop:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/jetson/robot_ws/build/servicerobot_joy', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.103 61470 192.168.0.107 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jetson/robot_ws/build/servicerobot_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages:/home/jetson/robot_ws/install/servicerobot_teleop/lib/python3.10/site-packages:/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1'}, 'shell': False}
+[1.104243] (-) TimerEvent: {}
+[1.204700] (-) TimerEvent: {}
+[1.305251] (-) TimerEvent: {}
+[1.405789] (-) TimerEvent: {}
+[1.505946] (servicerobot_joy) StdoutLine: {'line': b'running egg_info\n'}
+[1.506462] (-) TimerEvent: {}
+[1.507121] (servicerobot_joy) StdoutLine: {'line': b'writing ../../build/servicerobot_joy/servicerobot_joy.egg-info/PKG-INFO\n'}
+[1.507613] (servicerobot_joy) StdoutLine: {'line': b'writing dependency_links to ../../build/servicerobot_joy/servicerobot_joy.egg-info/dependency_links.txt\n'}
+[1.507923] (servicerobot_joy) StdoutLine: {'line': b'writing entry points to ../../build/servicerobot_joy/servicerobot_joy.egg-info/entry_points.txt\n'}
+[1.508181] (servicerobot_joy) StdoutLine: {'line': b'writing requirements to ../../build/servicerobot_joy/servicerobot_joy.egg-info/requires.txt\n'}
+[1.508353] (servicerobot_joy) StdoutLine: {'line': b'writing top-level names to ../../build/servicerobot_joy/servicerobot_joy.egg-info/top_level.txt\n'}
+[1.511692] (servicerobot_joy) StdoutLine: {'line': b"reading manifest file '../../build/servicerobot_joy/servicerobot_joy.egg-info/SOURCES.txt'\n"}
+[1.513113] (servicerobot_joy) StdoutLine: {'line': b"writing manifest file '../../build/servicerobot_joy/servicerobot_joy.egg-info/SOURCES.txt'\n"}
+[1.513300] (servicerobot_joy) StdoutLine: {'line': b'running build\n'}
+[1.513450] (servicerobot_joy) StdoutLine: {'line': b'running build_py\n'}
+[1.513613] (servicerobot_joy) StdoutLine: {'line': b'copying servicerobot_joy/joy_control_node.py -> /home/jetson/robot_ws/build/servicerobot_joy/build/lib/servicerobot_joy\n'}
+[1.514334] (servicerobot_joy) StdoutLine: {'line': b'running install\n'}
+[1.514921] (servicerobot_joy) StdoutLine: {'line': b'running install_lib\n'}
+[1.516400] (servicerobot_joy) StdoutLine: {'line': b'copying /home/jetson/robot_ws/build/servicerobot_joy/build/lib/servicerobot_joy/joy_control_node.py -> /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy\n'}
+[1.517587] (servicerobot_joy) StdoutLine: {'line': b'byte-compiling /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy/joy_control_node.py to joy_control_node.cpython-310.pyc\n'}
+[1.518081] (servicerobot_joy) StderrLine: {'line': b'Sorry: TabError: inconsistent use of tabs and spaces in indentation (joy_control_node.py, line 36)\n'}
+[1.518338] (servicerobot_joy) StdoutLine: {'line': b'running install_data\n'}
+[1.518506] (servicerobot_joy) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.521600] (servicerobot_joy) StdoutLine: {'line': b"removing '/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.522237] (servicerobot_joy) StdoutLine: {'line': b'Copying ../../build/servicerobot_joy/servicerobot_joy.egg-info to /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy-0.0.0-py3.10.egg-info\n'}
+[1.523903] (servicerobot_joy) StdoutLine: {'line': b'running install_scripts\n'}
+[1.562027] (servicerobot_joy) StdoutLine: {'line': b'Installing joy_control script to /home/jetson/robot_ws/install/servicerobot_joy/lib/servicerobot_joy\n'}
+[1.562597] (servicerobot_joy) StdoutLine: {'line': b"writing list of installed files to '/home/jetson/robot_ws/build/servicerobot_joy/install.log'\n"}
+[1.606605] (-) TimerEvent: {}
+[1.626772] (servicerobot_joy) CommandEnded: {'returncode': 0}
+[1.662067] (servicerobot_joy) JobEnded: {'identifier': 'servicerobot_joy', 'rc': 0}
+[1.664307] (-) EventReactorShutdown: {}

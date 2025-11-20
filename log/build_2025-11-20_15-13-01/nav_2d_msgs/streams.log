@@ -1,0 +1,371 @@
+[0.057s] Invoking command in '/home/jetson/robot_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav_2d_msgs
+[0.705s] -- The C compiler identification is GNU 11.4.0
+[0.705s] -- The CXX compiler identification is GNU 11.4.0
+[0.705s] -- Detecting C compiler ABI info
+[0.705s] -- Detecting C compiler ABI info - done
+[0.705s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.706s] -- Detecting C compile features
+[0.706s] -- Detecting C compile features - done
+[0.706s] -- Detecting CXX compiler ABI info
+[0.869s] -- Detecting CXX compiler ABI info - done
+[0.878s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.879s] -- Detecting CXX compile features
+[0.880s] -- Detecting CXX compile features - done
+[0.885s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.329s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.693s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.700s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.717s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.793s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.913s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.956s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.038s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.445s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.501s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.502s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.558s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.559s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.559s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.559s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[4.605s] -- Found PythonExtra: .so  
+[4.730s] -- Configuring done
+[4.814s] -- Generating done
+[4.838s] -- Build files have been written to: /home/jetson/robot_ws/build/nav_2d_msgs
+[4.873s] Invoked command in '/home/jetson/robot_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav_2d_msgs
+[4.873s] Invoking command in '/home/jetson/robot_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/robot_ws/build/nav_2d_msgs -- -j6 -l6
+[4.975s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.922s] [  1%] Built target nav_2d_msgs__cpp
+[7.024s] [  1%] Built target ament_cmake_python_copy_nav_2d_msgs
+[7.079s] [  2%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.294s] [  4%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[9.513s] [  5%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[10.265s] [  7%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[11.101s] [  8%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[11.876s] [  9%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[12.661s] [ 11%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[13.598s] [ 12%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[13.758s] [ 12%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[14.234s] running egg_info
+[14.236s] creating nav_2d_msgs.egg-info
+[14.237s] writing nav_2d_msgs.egg-info/PKG-INFO
+[14.237s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[14.238s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[14.239s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[14.244s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[14.245s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[14.365s] [ 12%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[14.385s] [ 14%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[15.484s] [ 15%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[16.571s] [ 16%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[17.505s] [ 18%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[18.362s] [ 19%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[19.277s] [ 21%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[20.199s] [ 22%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[21.081s] [ 23%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[21.303s] [ 23%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[21.340s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[22.088s] [ 26%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[22.657s] [ 28%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[23.220s] [ 29%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[23.770s] [ 30%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[24.316s] [ 32%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[24.862s] [ 33%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[25.452s] [ 35%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[25.529s] [ 35%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[25.549s] [ 36%] [34m[1mGenerating C code for ROS interfaces[0m
+[26.937s] [ 38%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[27.045s] [ 39%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[27.171s] [ 40%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[27.279s] [ 42%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[27.408s] [ 43%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[27.510s] [ 45%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[27.628s] [ 46%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[27.715s] [ 46%] Built target nav_2d_msgs__rosidl_generator_c
+[27.736s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.728s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[29.444s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[30.118s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[30.783s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[31.535s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[32.230s] [ 56%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[32.907s] [ 57%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[33.060s] [ 57%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[33.078s] [ 59%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[33.766s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[33.829s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[33.889s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[33.951s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[34.010s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[34.067s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[34.128s] [ 69%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[34.200s] [ 69%] Built target nav_2d_msgs__rosidl_typesupport_c
+[34.222s] [ 70%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35.119s] [ 71%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[35.199s] [ 73%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[35.281s] [ 74%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[35.362s] [ 76%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[35.433s] [ 77%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[35.505s] [ 78%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[35.574s] [ 80%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[35.649s] [ 80%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[35.694s] [ 80%] Built target nav_2d_msgs
+[35.737s] [ 81%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.277s] [ 81%] Built target nav_2d_msgs__py
+[37.320s] [ 83%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[37.569s] [ 84%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[37.779s] [ 85%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[37.984s] [ 87%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[38.186s] [ 88%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[38.381s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[38.605s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so[0m
+[38.692s] [ 91%] Built target nav_2d_msgs__rosidl_generator_py
+[38.735s] [ 92%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.953s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.038s] [ 94%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c__pyext
+[39.080s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.305s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.404s] [ 97%] Built target nav_2d_msgs__rosidl_typesupport_c__pyext
+[39.446s] [ 98%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[39.734s] [100%] [32m[1mLinking C shared library rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[39.834s] [100%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c__pyext
+[39.873s] Invoked command in '/home/jetson/robot_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/robot_ws/build/nav_2d_msgs -- -j6 -l6
+[39.877s] Invoking command in '/home/jetson/robot_ws/build/nav_2d_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/robot_ws/build/nav_2d_msgs
+[39.894s] -- Install configuration: ""
+[39.894s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[39.895s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[39.896s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[39.896s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.897s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[39.897s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[39.898s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[39.899s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[39.900s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[39.901s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[39.902s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[39.903s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[39.904s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[39.905s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[39.906s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[39.906s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[39.907s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[39.908s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[39.909s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[39.909s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[39.910s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[39.911s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[39.912s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[39.913s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[39.913s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[39.914s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[39.915s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[39.916s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[39.917s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[39.917s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[39.918s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[39.919s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[39.919s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[39.920s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[39.925s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[39.926s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[39.926s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[39.926s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[39.926s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[39.927s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[39.927s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[39.927s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[39.927s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[39.927s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[39.927s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[39.928s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[39.928s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[39.928s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[39.928s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.929s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[39.929s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.929s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[39.930s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[39.930s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[39.930s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[39.931s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[39.931s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[39.931s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[39.931s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[39.931s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[39.932s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[39.932s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[39.932s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[39.932s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[39.933s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[39.933s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[39.933s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[39.933s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[39.933s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[39.933s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[39.934s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[39.934s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[39.934s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[39.934s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[39.935s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[39.935s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[39.935s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[39.936s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[39.936s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[39.936s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[39.936s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[39.937s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[39.937s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[39.937s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[39.937s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[39.937s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[39.937s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[39.937s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[39.938s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[39.939s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.939s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.939s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.940s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[39.940s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[39.940s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[39.941s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[39.941s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[39.941s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[39.941s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[39.942s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[39.942s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[39.942s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[39.942s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[39.942s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[39.942s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[39.943s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[39.943s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[39.943s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.943s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[39.943s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.943s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[39.944s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[39.944s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[39.944s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[39.944s] -- Up-to-date: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[39.945s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[39.945s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[39.945s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[39.945s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[39.945s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[39.946s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[39.946s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[39.946s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[39.946s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[39.946s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[39.946s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[39.947s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[39.947s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[39.947s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.947s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[39.948s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[39.948s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[39.948s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[39.948s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.20-py3.10.egg-info
+[39.949s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.20-py3.10.egg-info/top_level.txt
+[39.950s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.20-py3.10.egg-info/SOURCES.txt
+[39.950s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.20-py3.10.egg-info/PKG-INFO
+[39.950s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs-1.1.20-py3.10.egg-info/dependency_links.txt
+[39.950s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs
+[39.951s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[39.951s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[39.951s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg
+[39.952s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py
+[39.952s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py
+[39.952s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[39.953s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[39.953s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d_s.c
+[39.953s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[39.953s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[39.954s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[39.954s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[39.954s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py
+[39.954s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py
+[39.954s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[39.954s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py
+[39.955s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[39.955s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.955s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.955s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/libnav_2d_msgs__rosidl_generator_py.so
+[39.955s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py
+[39.955s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[40.034s] Listing '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/__init__.py'...
+[40.035s] Listing '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/__init__.py'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_path2_d.py'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[40.035s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[40.036s] Compiling '/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[40.052s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[40.052s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[40.053s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[40.053s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[40.053s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[40.054s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[40.054s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[40.054s] -- Set runtime path of "/home/jetson/robot_ws/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[40.054s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[40.054s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[40.054s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[40.055s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[40.055s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[40.055s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[40.055s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[40.055s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[40.055s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[40.056s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[40.056s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[40.056s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[40.056s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[40.057s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[40.057s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[40.057s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[40.058s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[40.058s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[40.058s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[40.058s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[40.059s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[40.059s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[40.059s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[40.059s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[40.060s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[40.060s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[40.060s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[40.061s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[40.061s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[40.061s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[40.061s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[40.062s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[40.062s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[40.062s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[40.065s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[40.065s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[40.065s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[40.065s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[40.065s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[40.065s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[40.066s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[40.067s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[40.067s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[40.067s] -- Installing: /home/jetson/robot_ws/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[40.074s] Invoked command in '/home/jetson/robot_ws/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/robot_ws/build/nav_2d_msgs

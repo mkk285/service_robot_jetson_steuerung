@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/servicerobot_joy/servicerobot_joy.egg-info/PKG-INFO
+writing dependency_links to ../../build/servicerobot_joy/servicerobot_joy.egg-info/dependency_links.txt
+writing entry points to ../../build/servicerobot_joy/servicerobot_joy.egg-info/entry_points.txt
+writing requirements to ../../build/servicerobot_joy/servicerobot_joy.egg-info/requires.txt
+writing top-level names to ../../build/servicerobot_joy/servicerobot_joy.egg-info/top_level.txt
+reading manifest file '../../build/servicerobot_joy/servicerobot_joy.egg-info/SOURCES.txt'
+writing manifest file '../../build/servicerobot_joy/servicerobot_joy.egg-info/SOURCES.txt'
+running build
+running build_py
+copying servicerobot_joy/joy_control_node.py -> /home/jetson/robot_ws/build/servicerobot_joy/build/lib/servicerobot_joy
+running install
+running install_lib
+copying /home/jetson/robot_ws/build/servicerobot_joy/build/lib/servicerobot_joy/joy_control_node.py -> /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy
+byte-compiling /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy/joy_control_node.py to joy_control_node.cpython-310.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (joy_control_node.py, line 36)
+running install_data
+running install_egg_info
+removing '/home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/servicerobot_joy/servicerobot_joy.egg-info to /home/jetson/robot_ws/install/servicerobot_joy/lib/python3.10/site-packages/servicerobot_joy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing joy_control script to /home/jetson/robot_ws/install/servicerobot_joy/lib/servicerobot_joy
+writing list of installed files to '/home/jetson/robot_ws/build/servicerobot_joy/install.log'

@@ -1,0 +1,56 @@
+[0.676s] Invoking command in '/home/jetson/robot_ws/build/servicerobot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/robot_ws/src/servicerobot_slam -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/servicerobot_slam
+[0.908s] -- The C compiler identification is GNU 11.4.0
+[1.120s] -- The CXX compiler identification is GNU 11.4.0
+[1.142s] -- Detecting C compiler ABI info
+[1.498s] -- Detecting C compiler ABI info - done
+[1.501s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.509s] -- Detecting C compile features
+[1.510s] -- Detecting C compile features - done
+[1.515s] -- Detecting CXX compiler ABI info
+[1.868s] -- Detecting CXX compiler ABI info - done
+[1.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.891s] -- Detecting CXX compile features
+[1.892s] -- Detecting CXX compile features - done
+[1.898s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.410s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.749s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.058s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.058s] -- Configured cppcheck include dirs: 
+[3.059s] -- Configured cppcheck exclude dirs and/or files: 
+[3.063s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.072s] -- Added test 'lint_cmake' to check CMake code style
+[3.076s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.106s] -- Added test 'uncrustify' to check C / C++ code style
+[3.106s] -- Configured uncrustify additional arguments: 
+[3.117s] -- Added test 'xmllint' to check XML markup files
+[3.117s] -- Configuring done
+[3.124s] -- Generating done
+[3.130s] -- Build files have been written to: /home/jetson/robot_ws/build/servicerobot_slam
+[3.217s] Invoked command in '/home/jetson/robot_ws/build/servicerobot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/jetson/robot_ws/src/servicerobot_slam -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/servicerobot_slam
+[3.231s] Invoking command in '/home/jetson/robot_ws/build/servicerobot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/robot_ws/build/servicerobot_slam -- -j6 -l6
+[3.358s] Invoked command in '/home/jetson/robot_ws/build/servicerobot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/jetson/robot_ws/build/servicerobot_slam -- -j6 -l6
+[3.361s] Invoking command in '/home/jetson/robot_ws/build/servicerobot_slam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/robot_ws/build/servicerobot_slam
+[3.503s] -- Install configuration: ""
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/launch
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/launch/start_slam_toolbox.launch.py
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/rviz
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/rviz/servicerobot_gmapping.rviz
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/config
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/config/slam_toolbox_params.yaml.save
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/config/mapper.yaml
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/ament_index/resource_index/package_run_dependencies/servicerobot_slam
+[3.504s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/ament_index/resource_index/parent_prefix_path/servicerobot_slam
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/environment/ament_prefix_path.sh
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/environment/ament_prefix_path.dsv
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/environment/path.sh
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/environment/path.dsv
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/local_setup.bash
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/local_setup.sh
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/local_setup.zsh
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/local_setup.dsv
+[3.505s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/package.dsv
+[3.506s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/ament_index/resource_index/packages/servicerobot_slam
+[3.506s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/cmake/servicerobot_slamConfig.cmake
+[3.506s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/cmake/servicerobot_slamConfig-version.cmake
+[3.506s] -- Installing: /home/jetson/robot_ws/install/servicerobot_slam/share/servicerobot_slam/package.xml
+[3.532s] Invoked command in '/home/jetson/robot_ws/build/servicerobot_slam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/jetson/robot_ws/build/servicerobot_slam

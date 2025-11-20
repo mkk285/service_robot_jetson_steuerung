@@ -1,0 +1,3 @@
+[console_scripts]
+joy_control = servicerobot_joy.joy_control_node:main
+
