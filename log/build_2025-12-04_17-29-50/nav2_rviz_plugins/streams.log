@@ -1,0 +1,135 @@
+[0.035s] Invoking command in '/home/jetson/robot_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_rviz_plugins
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.322s] -- The CXX compiler identification is GNU 11.4.0
+[0.338s] -- Detecting C compiler ABI info
+[0.519s] -- Detecting C compiler ABI info - done
+[0.541s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.543s] -- Detecting C compile features
+[0.544s] -- Detecting C compile features - done
+[0.555s] -- Detecting CXX compiler ABI info
+[0.735s] -- Detecting CXX compiler ABI info - done
+[0.748s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.749s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.757s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.144s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.371s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.457s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.468s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.487s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.553s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.659s] -- Found nav2_util: 1.1.20 (/home/jetson/robot_ws/install/nav2_util/share/nav2_util/cmake)
+[1.989s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.996s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.219s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.277s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.366s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.391s] -- Looking for pthread.h
+[2.614s] -- Looking for pthread.h - found
+[2.616s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.779s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.784s] -- Found Threads: TRUE  
+[3.024s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.028s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.029s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.149s] -- Found nav2_lifecycle_manager: 1.1.20 (/home/jetson/robot_ws/install/nav2_lifecycle_manager/share/nav2_lifecycle_manager/cmake)
+[3.247s] -- Found pluginlib: 5.1.2 (/opt/ros/humble/share/pluginlib/cmake)
+[3.330s] -- Found rviz_common: 11.2.22 (/opt/ros/humble/share/rviz_common/cmake)
+[3.357s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[3.379s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.382s] -- Found OGRE
+[3.382s] --   static     : OFF
+[3.383s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.383s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.383s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.383s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.383s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[3.383s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.383s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[3.385s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.385s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.385s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.385s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.447s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[3.468s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so   
+[3.855s] -- Found X11: /usr/include   
+[3.855s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[4.071s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[4.072s] -- Looking for gethostbyname
+[4.255s] -- Looking for gethostbyname - found
+[4.255s] -- Looking for connect
+[4.462s] -- Looking for connect - found
+[4.462s] -- Looking for remove
+[4.695s] -- Looking for remove - found
+[4.696s] -- Looking for shmat
+[4.872s] -- Looking for shmat - found
+[4.872s] -- Looking for IceConnectionNumber in ICE
+[5.072s] -- Looking for IceConnectionNumber in ICE - found
+[5.389s] -- library: /usr/lib/aarch64-linux-gnu/libcurl.so
+[5.575s] -- Found rviz_default_plugins: 11.2.22 (/opt/ros/humble/share/rviz_default_plugins/cmake)
+[5.923s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.167s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.172s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.174s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_rviz_plugins/include
+[6.174s] -- Configured cppcheck exclude dirs and/or files: 
+[6.178s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.179s] -- Configured cpplint exclude dirs and/or files: 
+[6.182s] -- Added test 'lint_cmake' to check CMake code style
+[6.187s] -- Added test 'uncrustify' to check C / C++ code style
+[6.188s] -- Configured uncrustify additional arguments: 
+[6.190s] -- Added test 'xmllint' to check XML markup files
+[6.201s] -- Configuring done
+[6.372s] -- Generating done
+[6.393s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_rviz_plugins
+[6.459s] Invoked command in '/home/jetson/robot_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_rviz_plugins -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_rviz_plugins
+[6.464s] Invoking command in '/home/jetson/robot_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_rviz_plugins -- -j6 -l6
+[6.635s] [ 14%] [34m[1mAutomatic MOC for target nav2_rviz_plugins[0m
+[9.529s] [ 14%] Built target nav2_rviz_plugins_autogen
+[9.586s] [ 28%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/nav2_rviz_plugins_autogen/mocs_compilation.cpp.o[0m
+[44.696s] [ 42%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/particle_cloud_display.cpp.o[0m
+[70.750s] [ 57%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/particle_cloud_display/flat_weighted_arrows_array.cpp.o[0m
+[82.358s] [ 71%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/nav2_panel.cpp.o[0m
+[140.605s] [ 85%] [32mBuilding CXX object CMakeFiles/nav2_rviz_plugins.dir/src/goal_tool.cpp.o[0m
+[150.078s] [100%] [32m[1mLinking CXX shared library libnav2_rviz_plugins.so[0m
+[166.490s] [100%] Built target nav2_rviz_plugins
+[166.512s] Invoked command in '/home/jetson/robot_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_rviz_plugins -- -j6 -l6
+[166.515s] Invoking command in '/home/jetson/robot_ws/build/nav2_rviz_plugins': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_rviz_plugins
+[166.530s] -- Install configuration: ""
+[166.531s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/plugins_description.xml
+[166.531s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so
+[166.571s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_rviz_plugins/lib/libnav2_rviz_plugins.so" to ""
+[166.571s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include/
+[166.571s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/nav2_panel.hpp
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/particle_cloud_display.hpp
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/particle_cloud_display/flat_weighted_arrows_array.hpp
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_tool.hpp
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/ros_action_qevent.hpp
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_common.hpp
+[166.572s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/include//nav2_rviz_plugins/goal_pose_updater.hpp
+[166.573s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.sh
+[166.573s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/library_path.dsv
+[166.574s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/package_run_dependencies/nav2_rviz_plugins
+[166.574s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/parent_prefix_path/nav2_rviz_plugins
+[166.574s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.sh
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/ament_prefix_path.dsv
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.sh
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/environment/path.dsv
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.bash
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.sh
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.zsh
+[166.575s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/local_setup.dsv
+[166.576s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.dsv
+[166.577s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/packages/nav2_rviz_plugins
+[166.577s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/ament_index/resource_index/rviz_common__pluginlib__plugin/nav2_rviz_plugins
+[166.577s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport.cmake
+[166.577s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsExport-noconfig.cmake
+[166.577s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_include_directories-extras.cmake
+[166.579s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_targets-extras.cmake
+[166.580s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/ament_cmake_export_dependencies-extras.cmake
+[166.580s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig.cmake
+[166.580s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/cmake/nav2_rviz_pluginsConfig-version.cmake
+[166.580s] -- Installing: /home/jetson/robot_ws/install/nav2_rviz_plugins/share/nav2_rviz_plugins/package.xml
+[166.583s] Invoked command in '/home/jetson/robot_ws/build/nav2_rviz_plugins' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_rviz_plugins

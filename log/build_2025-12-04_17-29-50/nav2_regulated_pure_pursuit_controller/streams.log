@@ -1,0 +1,103 @@
+[0.057s] Invoking command in '/home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.330s] -- The CXX compiler identification is GNU 11.4.0
+[0.351s] -- Detecting C compiler ABI info
+[0.532s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.550s] -- Detecting CXX compiler ABI info
+[0.781s] -- Detecting CXX compiler ABI info - done
+[0.797s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.797s] -- Detecting CXX compile features
+[0.799s] -- Detecting CXX compile features - done
+[0.806s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.227s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.450s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[1.451s] -- Found nav2_core: 1.1.20 (/home/jetson/robot_ws/install/nav2_core/share/nav2_core/cmake)
+[1.539s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.548s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.567s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.589s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.619s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.706s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.712s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.865s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.917s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.999s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.018s] -- Looking for pthread.h
+[2.178s] -- Looking for pthread.h - found
+[2.178s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.344s] -- Found Threads: TRUE  
+[3.188s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.188s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.473s] -- Setting build type to Release as none was specified.
+[3.685s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.979s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.267s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.269s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/include
+[4.269s] -- Configured cppcheck exclude dirs and/or files: 
+[4.273s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.275s] -- Configured cpplint exclude dirs and/or files: 
+[4.278s] -- Added test 'lint_cmake' to check CMake code style
+[4.282s] -- Added test 'uncrustify' to check C / C++ code style
+[4.282s] -- Configured uncrustify additional arguments: 
+[4.285s] -- Added test 'xmllint' to check XML markup files
+[4.297s] -- Configuring done
+[4.592s] -- Generating done
+[4.651s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller
+[4.720s] Invoked command in '/home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller
+[4.725s] Invoking command in '/home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller -- -j6 -l6
+[5.864s] [  8%] [32mBuilding CXX object CMakeFiles/nav2_regulated_pure_pursuit_controller.dir/src/regulated_pure_pursuit_controller.cpp.o[0m
+[33.792s] [ 16%] [32m[1mLinking CXX shared library libnav2_regulated_pure_pursuit_controller.so[0m
+[35.172s] [ 16%] Built target nav2_regulated_pure_pursuit_controller
+[35.236s] [ 25%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[56.008s] [ 33%] [32m[1mLinking CXX static library libgtest.a[0m
+[56.098s] [ 33%] Built target gtest
+[56.142s] [ 41%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[58.392s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[58.482s] [ 50%] Built target gtest_main
+[58.546s] [ 58%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/test_regulated_pp.cpp.o[0m
+[74.266s] [01m[K/home/jetson/robot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp:[m[K In lambda function:
+[74.266s] [01m[K/home/jetson/robot_ws/src/navigation2/nav2_regulated_pure_pursuit_controller/test/test_regulated_pp.cpp:218:24:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<double, double>[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[74.266s]   218 |   auto pair_to_point = [01;36m[K[[m[K](std::pair<double, double> p) -> geometry_msgs::msg::Point {
+[74.267s]       |                        [01;36m[K^[m[K
+[83.564s] [ 66%] [32mBuilding CXX object test/CMakeFiles/test_regulated_pp.dir/path_utils/path_utils.cpp.o[0m
+[92.248s] [ 75%] [32m[1mLinking CXX executable test_regulated_pp[0m
+[93.536s] [ 75%] Built target test_regulated_pp
+[93.602s] [ 83%] [32mBuilding CXX object test/CMakeFiles/test_path_utils.dir/path_utils/test_path_utils.cpp.o[0m
+[97.881s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_path_utils.dir/path_utils/path_utils.cpp.o[0m
+[105.719s] [100%] [32m[1mLinking CXX executable test_path_utils[0m
+[106.042s] [100%] Built target test_path_utils
+[106.079s] Invoked command in '/home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller -- -j6 -l6
+[106.083s] Invoking command in '/home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller
+[106.131s] -- Install configuration: "Release"
+[106.131s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so
+[106.132s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/lib/libnav2_regulated_pure_pursuit_controller.so" to ""
+[106.132s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/include/
+[106.133s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller
+[106.133s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/include//nav2_regulated_pure_pursuit_controller/regulated_pure_pursuit_controller.hpp
+[106.133s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.sh
+[106.134s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/library_path.dsv
+[106.134s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/nav2_regulated_pure_pursuit_controller.xml
+[106.134s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/package_run_dependencies/nav2_regulated_pure_pursuit_controller
+[106.134s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/parent_prefix_path/nav2_regulated_pure_pursuit_controller
+[106.135s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.sh
+[106.135s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/ament_prefix_path.dsv
+[106.135s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.sh
+[106.135s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/environment/path.dsv
+[106.135s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.bash
+[106.135s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.sh
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.zsh
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/local_setup.dsv
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.dsv
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/packages/nav2_regulated_pure_pursuit_controller
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_regulated_pure_pursuit_controller
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[106.136s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[106.137s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[106.137s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig.cmake
+[106.137s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/cmake/nav2_regulated_pure_pursuit_controllerConfig-version.cmake
+[106.137s] -- Installing: /home/jetson/robot_ws/install/nav2_regulated_pure_pursuit_controller/share/nav2_regulated_pure_pursuit_controller/package.xml
+[106.176s] Invoked command in '/home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_regulated_pure_pursuit_controller

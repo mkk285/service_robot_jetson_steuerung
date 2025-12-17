@@ -1,0 +1,134 @@
+[0.111s] Invoking command in '/home/jetson/robot_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_collision_monitor -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_collision_monitor
+[0.361s] -- The C compiler identification is GNU 11.4.0
+[0.639s] -- The CXX compiler identification is GNU 11.4.0
+[0.677s] -- Detecting C compiler ABI info
+[0.915s] -- Detecting C compiler ABI info - done
+[0.934s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.937s] -- Detecting C compile features
+[0.938s] -- Detecting C compile features - done
+[0.975s] -- Detecting CXX compiler ABI info
+[1.268s] -- Detecting CXX compiler ABI info - done
+[1.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.289s] -- Detecting CXX compile features
+[1.290s] -- Detecting CXX compile features - done
+[1.296s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.001s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.272s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[2.384s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.401s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.423s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.452s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.488s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.610s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.618s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.888s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.067s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.090s] -- Looking for pthread.h
+[3.340s] -- Looking for pthread.h - found
+[3.343s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.612s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.612s] -- Found Threads: TRUE  
+[3.734s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[3.802s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.857s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[3.866s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.990s] -- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[4.020s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.021s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.021s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.026s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[4.027s] -- Found nav2_util: 1.1.20 (/home/jetson/robot_ws/install/nav2_util/share/nav2_util/cmake)
+[4.226s] -- Found nav2_costmap_2d: 1.1.20 (/home/jetson/robot_ws/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake)
+[4.441s] -- Setting build type to Release as none was specified.
+[4.565s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.784s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.027s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.027s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_collision_monitor/include
+[5.027s] -- Configured cppcheck exclude dirs and/or files: 
+[5.027s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.028s] -- Added test 'lint_cmake' to check CMake code style
+[5.031s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.034s] -- Added test 'uncrustify' to check C / C++ code style
+[5.035s] -- Configured uncrustify additional arguments: 
+[5.036s] -- Added test 'xmllint' to check XML markup files
+[5.047s] -- Configuring done
+[5.567s] -- Generating done
+[5.644s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_collision_monitor
+[5.703s] Invoked command in '/home/jetson/robot_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_collision_monitor -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_collision_monitor
+[5.704s] Invoking command in '/home/jetson/robot_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_collision_monitor -- -j6 -l6
+[9.504s] [  4%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/collision_monitor_node.cpp.o[0m
+[43.075s] [  8%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/source.cpp.o[0m
+[55.018s] [ 13%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/scan.cpp.o[0m
+[84.324s] [ 17%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/pointcloud.cpp.o[0m
+[113.239s] [ 21%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/range.cpp.o[0m
+[142.331s] [ 26%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/kinematics.cpp.o[0m
+[142.978s] [ 30%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/circle.cpp.o[0m
+[152.329s] [ 34%] [32mBuilding CXX object CMakeFiles/collision_monitor_core.dir/src/polygon.cpp.o[0m
+[171.233s] [ 39%] [32m[1mLinking CXX shared library libcollision_monitor_core.so[0m
+[172.429s] [ 39%] Built target collision_monitor_core
+[172.477s] [ 43%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[190.170s] [ 47%] [32m[1mLinking CXX static library libgtest.a[0m
+[190.272s] [ 47%] Built target gtest
+[190.337s] [ 52%] [32mBuilding CXX object CMakeFiles/collision_monitor.dir/src/main.cpp.o[0m
+[201.033s] [ 56%] [32m[1mLinking CXX executable collision_monitor[0m
+[201.952s] [ 56%] Built target collision_monitor
+[202.013s] [ 60%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[204.598s] [ 65%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[204.681s] [ 65%] Built target gtest_main
+[204.735s] [ 69%] [32mBuilding CXX object test/CMakeFiles/kinematics_test.dir/kinematics_test.cpp.o[0m
+[214.199s] [ 73%] [32m[1mLinking CXX executable kinematics_test[0m
+[215.174s] [ 73%] Built target kinematics_test
+[215.225s] [ 78%] [32mBuilding CXX object test/CMakeFiles/collision_monitor_node_test.dir/collision_monitor_node_test.cpp.o[0m
+[267.654s] [ 82%] [32m[1mLinking CXX executable collision_monitor_node_test[0m
+[268.918s] [ 82%] Built target collision_monitor_node_test
+[268.964s] [ 86%] [32mBuilding CXX object test/CMakeFiles/polygons_test.dir/polygons_test.cpp.o[0m
+[307.175s] [ 91%] [32m[1mLinking CXX executable polygons_test[0m
+[308.640s] [ 91%] Built target polygons_test
+[308.691s] [ 95%] [32mBuilding CXX object test/CMakeFiles/sources_test.dir/sources_test.cpp.o[0m
+[334.235s] [100%] [32m[1mLinking CXX executable sources_test[0m
+[335.210s] [100%] Built target sources_test
+[335.253s] Invoked command in '/home/jetson/robot_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_collision_monitor -- -j6 -l6
+[335.254s] Invoking command in '/home/jetson/robot_ws/build/nav2_collision_monitor': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_collision_monitor
+[335.276s] -- Install configuration: "Release"
+[335.276s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so
+[335.284s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_collision_monitor/lib/libcollision_monitor_core.so" to ""
+[335.285s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor
+[335.288s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_collision_monitor/lib/nav2_collision_monitor/collision_monitor" to ""
+[335.288s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include/
+[335.289s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor
+[335.289s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/polygon.hpp
+[335.290s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/source.hpp
+[335.290s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/circle.hpp
+[335.291s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/pointcloud.hpp
+[335.292s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/scan.hpp
+[335.293s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/range.hpp
+[335.295s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/collision_monitor_node.hpp
+[335.295s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/kinematics.hpp
+[335.296s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/include//nav2_collision_monitor/types.hpp
+[335.297s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch
+[335.298s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/launch/collision_monitor_node.launch.py
+[335.298s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params
+[335.299s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/params/collision_monitor_params.yaml
+[335.300s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.sh
+[335.301s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/library_path.dsv
+[335.302s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/package_run_dependencies/nav2_collision_monitor
+[335.303s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/parent_prefix_path/nav2_collision_monitor
+[335.303s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.sh
+[335.304s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/ament_prefix_path.dsv
+[335.305s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.sh
+[335.305s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/environment/path.dsv
+[335.306s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.bash
+[335.306s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.sh
+[335.307s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.zsh
+[335.308s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/local_setup.dsv
+[335.308s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.dsv
+[335.309s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/packages/nav2_collision_monitor
+[335.310s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/ament_index/resource_index/rclcpp_components/nav2_collision_monitor
+[335.311s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[335.311s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_libraries-extras.cmake
+[335.312s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[335.313s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig.cmake
+[335.313s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/cmake/nav2_collision_monitorConfig-version.cmake
+[335.314s] -- Installing: /home/jetson/robot_ws/install/nav2_collision_monitor/share/nav2_collision_monitor/package.xml
+[335.321s] Invoked command in '/home/jetson/robot_ws/build/nav2_collision_monitor' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_collision_monitor

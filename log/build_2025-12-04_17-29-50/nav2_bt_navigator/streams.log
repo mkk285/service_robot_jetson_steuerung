@@ -1,0 +1,115 @@
+[0.074s] Invoking command in '/home/jetson/robot_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_behavior_tree/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_bt_navigator
+[28.265s] -- The C compiler identification is GNU 11.4.0
+[28.265s] -- The CXX compiler identification is GNU 11.4.0
+[28.265s] -- Detecting C compiler ABI info
+[28.265s] -- Detecting C compiler ABI info - done
+[28.265s] -- Check for working C compiler: /usr/bin/cc - skipped
+[28.265s] -- Detecting C compile features
+[28.265s] -- Detecting C compile features - done
+[28.266s] -- Detecting CXX compiler ABI info
+[28.266s] -- Detecting CXX compiler ABI info - done
+[28.266s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[28.266s] -- Detecting CXX compile features
+[28.266s] -- Detecting CXX compile features - done
+[28.266s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[28.266s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[28.266s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[28.266s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[28.266s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[28.267s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[28.267s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[28.267s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[28.267s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[28.267s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[28.267s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[28.267s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[28.267s] -- Found FastRTPS: /opt/ros/humble/include  
+[28.267s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[28.267s] -- Looking for pthread.h
+[28.267s] -- Looking for pthread.h - found
+[28.268s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[28.268s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[28.268s] -- Found Threads: TRUE  
+[28.274s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[28.274s] -- Found rclcpp_lifecycle: 16.0.15 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[28.274s] -- Found rclcpp_components: 16.0.15 (/opt/ros/humble/share/rclcpp_components/cmake)
+[28.274s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[28.274s] -- Found nav2_behavior_tree: 1.1.20 (/home/jetson/robot_ws/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake)
+[28.274s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[28.274s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[28.275s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[28.275s] -- Found nav2_core: 1.1.20 (/home/jetson/robot_ws/install/nav2_core/share/nav2_core/cmake)
+[28.275s] -- Setting build type to Release as none was specified.
+[28.275s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[28.275s] -- Added test 'copyright' to check source files copyright and LICENSE
+[28.275s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[28.275s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_bt_navigator/include
+[28.275s] -- Configured cppcheck exclude dirs and/or files: 
+[28.275s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[28.275s] -- Configured cpplint exclude dirs and/or files: 
+[28.276s] -- Added test 'lint_cmake' to check CMake code style
+[28.276s] -- Added test 'uncrustify' to check C / C++ code style
+[28.276s] -- Configured uncrustify additional arguments: 
+[28.276s] -- Added test 'xmllint' to check XML markup files
+[28.276s] -- Configuring done
+[28.276s] -- Generating done
+[28.276s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_bt_navigator
+[28.284s] Invoked command in '/home/jetson/robot_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_behavior_tree/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_bt_navigator -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_bt_navigator
+[28.284s] Invoking command in '/home/jetson/robot_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_behavior_tree/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_bt_navigator -- -j6 -l6
+[28.545s] [ 16%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/bt_navigator.cpp.o[0m
+[84.016s] [ 33%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_through_poses.cpp.o[0m
+[107.229s] [ 50%] [32mBuilding CXX object CMakeFiles/bt_navigator_core.dir/src/navigators/navigate_to_pose.cpp.o[0m
+[148.032s] [ 66%] [32m[1mLinking CXX shared library libbt_navigator_core.so[0m
+[149.682s] [ 66%] Built target bt_navigator_core
+[149.728s] [ 83%] [32mBuilding CXX object CMakeFiles/bt_navigator.dir/src/main.cpp.o[0m
+[163.730s] [100%] [32m[1mLinking CXX executable bt_navigator[0m
+[165.177s] [100%] Built target bt_navigator
+[165.253s] Invoked command in '/home/jetson/robot_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_behavior_tree/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_bt_navigator -- -j6 -l6
+[165.255s] Invoking command in '/home/jetson/robot_ws/build/nav2_bt_navigator': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_behavior_tree/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_bt_navigator
+[165.260s] -- Install configuration: "Release"
+[165.260s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so
+[165.260s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_bt_navigator/lib/libbt_navigator_core.so" to ""
+[165.260s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator
+[165.260s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_bt_navigator/lib/nav2_bt_navigator/bt_navigator" to ""
+[165.267s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include/
+[165.268s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator
+[165.268s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators
+[165.269s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators/navigate_through_poses.hpp
+[165.270s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigators/navigate_to_pose.hpp
+[165.270s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/bt_navigator.hpp
+[165.271s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/include//nav2_bt_navigator/navigator.hpp
+[165.272s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees
+[165.273s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_goal_patience_and_recovery.xml
+[165.274s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml
+[165.275s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_only_if_goal_is_updated.xml
+[165.276s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_through_poses_w_replanning_and_recovery.xml
+[165.277s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/nav_to_pose_with_consistent_replanning_and_if_path_becomes_invalid.xml
+[165.278s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/follow_point.xml
+[165.279s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/odometry_calibration.xml
+[165.280s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_only_if_path_becomes_invalid.xml
+[165.280s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_distance.xml
+[165.281s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_recovery_and_replanning_only_if_path_becomes_invalid.xml
+[165.282s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_time.xml
+[165.283s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/behavior_trees/navigate_w_replanning_speed.xml
+[165.284s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.sh
+[165.285s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/library_path.dsv
+[165.286s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/package_run_dependencies/nav2_bt_navigator
+[165.287s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/parent_prefix_path/nav2_bt_navigator
+[165.288s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.sh
+[165.288s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/ament_prefix_path.dsv
+[165.289s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.sh
+[165.290s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/environment/path.dsv
+[165.290s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.bash
+[165.291s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.sh
+[165.292s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.zsh
+[165.292s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/local_setup.dsv
+[165.293s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.dsv
+[165.294s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/packages/nav2_bt_navigator
+[165.295s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/ament_index/resource_index/rclcpp_components/nav2_bt_navigator
+[165.296s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_include_directories-extras.cmake
+[165.297s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_libraries-extras.cmake
+[165.298s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/ament_cmake_export_dependencies-extras.cmake
+[165.298s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig.cmake
+[165.299s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/cmake/nav2_bt_navigatorConfig-version.cmake
+[165.300s] -- Installing: /home/jetson/robot_ws/install/nav2_bt_navigator/share/nav2_bt_navigator/package.xml
+[165.310s] Invoked command in '/home/jetson/robot_ws/build/nav2_bt_navigator' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_behavior_tree:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_behavior_tree/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_bt_navigator

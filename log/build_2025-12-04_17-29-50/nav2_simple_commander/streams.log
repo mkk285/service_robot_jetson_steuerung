@@ -1,0 +1,91 @@
+[1.183s] Invoking command in '/home/jetson/robot_ws/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/jetson/robot_ws/build/nav2_simple_commander/build install --record /home/jetson/robot_ws/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[1.617s] running egg_info
+[1.618s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.619s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.619s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.620s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.620s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.620s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.621s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.628s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.629s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[1.629s] running build
+[1.630s] running build_py
+[1.630s] creating /home/jetson/robot_ws/build/nav2_simple_commander/build
+[1.630s] creating /home/jetson/robot_ws/build/nav2_simple_commander/build/lib
+[1.630s] creating /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.630s] copying nav2_simple_commander/costmap_2d.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.631s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.631s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.631s] copying nav2_simple_commander/line_iterator.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.632s] copying nav2_simple_commander/demo_security.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.632s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.632s] copying nav2_simple_commander/robot_navigator.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.633s] copying nav2_simple_commander/footprint_collision_checker.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.633s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.633s] copying nav2_simple_commander/demo_inspection.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.633s] copying nav2_simple_commander/demo_recoveries.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.634s] copying nav2_simple_commander/__init__.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.634s] copying nav2_simple_commander/example_follow_path.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.634s] copying nav2_simple_commander/demo_picking.py -> /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[1.635s] running install
+[1.636s] running install_lib
+[1.638s] creating /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.638s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.638s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.638s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.638s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.639s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.639s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.639s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.639s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/footprint_collision_checker.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.640s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.640s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.640s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.641s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.641s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.641s] copying /home/jetson/robot_ws/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander
+[1.642s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-310.pyc
+[1.644s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-310.pyc
+[1.645s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-310.pyc
+[1.645s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-310.pyc
+[1.647s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-310.pyc
+[1.648s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-310.pyc
+[1.649s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-310.pyc
+[1.657s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/footprint_collision_checker.py to footprint_collision_checker.cpython-310.pyc
+[1.657s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-310.pyc
+[1.658s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-310.pyc
+[1.659s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-310.pyc
+[1.659s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-310.pyc
+[1.660s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-310.pyc
+[1.661s] byte-compiling /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-310.pyc
+[1.662s] running install_data
+[1.662s] creating /home/jetson/robot_ws/install/nav2_simple_commander/share/ament_index
+[1.662s] creating /home/jetson/robot_ws/install/nav2_simple_commander/share/ament_index/resource_index
+[1.663s] creating /home/jetson/robot_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.663s] copying resource/nav2_simple_commander -> /home/jetson/robot_ws/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[1.663s] copying package.xml -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.663s] copying launch/waypoint_follower_example_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.664s] copying launch/nav_to_pose_example_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.664s] copying launch/assisted_teleop_example_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.664s] copying launch/follow_path_example_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.664s] copying launch/warehouse.world -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.664s] copying launch/nav_through_poses_example_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.665s] copying launch/security_demo_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.665s] copying launch/inspection_demo_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.665s] copying launch/recoveries_example_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.665s] copying launch/picking_demo_launch.py -> /home/jetson/robot_ws/install/nav2_simple_commander/share/nav2_simple_commander
+[1.665s] running install_egg_info
+[1.669s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages/nav2_simple_commander-1.0.0-py3.10.egg-info
+[1.671s] running install_scripts
+[1.712s] Installing demo_inspection script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.712s] Installing demo_picking script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.712s] Installing demo_recoveries script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.713s] Installing demo_security script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.713s] Installing example_assisted_teleop script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.713s] Installing example_follow_path script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.713s] Installing example_nav_through_poses script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.713s] Installing example_nav_to_pose script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.714s] Installing example_waypoint_follower script to /home/jetson/robot_ws/install/nav2_simple_commander/lib/nav2_simple_commander
+[1.714s] writing list of installed files to '/home/jetson/robot_ws/build/nav2_simple_commander/install.log'
+[1.787s] Invoked command in '/home/jetson/robot_ws/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav2_common LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jetson/robot_ws/install/nav2_simple_commander/lib/python3.10/site-packages:/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/jetson/robot_ws/build/nav2_simple_commander/build install --record /home/jetson/robot_ws/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

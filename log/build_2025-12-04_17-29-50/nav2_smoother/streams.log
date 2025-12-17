@@ -1,0 +1,120 @@
+[0.147s] Invoking command in '/home/jetson/robot_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_smoother
+[136.799s] -- The C compiler identification is GNU 11.4.0
+[136.799s] -- The CXX compiler identification is GNU 11.4.0
+[136.800s] -- Detecting C compiler ABI info
+[136.800s] -- Detecting C compiler ABI info - done
+[136.800s] -- Check for working C compiler: /usr/bin/cc - skipped
+[136.800s] -- Detecting C compile features
+[136.800s] -- Detecting C compile features - done
+[136.800s] -- Detecting CXX compiler ABI info
+[136.807s] -- Detecting CXX compiler ABI info - done
+[136.808s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[136.808s] -- Detecting CXX compile features
+[136.808s] -- Detecting CXX compile features - done
+[136.809s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[136.809s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[136.809s] -- Found nav2_core: 1.1.20 (/home/jetson/robot_ws/install/nav2_core/share/nav2_core/cmake)
+[136.810s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[136.810s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[136.810s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[136.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[136.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[136.810s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[136.810s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[136.810s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[136.810s] -- Found FastRTPS: /opt/ros/humble/include  
+[136.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[136.811s] -- Looking for pthread.h
+[136.811s] -- Looking for pthread.h - found
+[136.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[136.811s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[136.811s] -- Found Threads: TRUE  
+[136.811s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[136.811s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[136.811s] -- Found nav2_common: 1.1.20 (/home/jetson/robot_ws/install/nav2_common/share/nav2_common/cmake)
+[136.812s] -- Found nav_2d_utils: 1.1.20 (/home/jetson/robot_ws/install/nav_2d_utils/share/nav_2d_utils/cmake)
+[136.812s] -- Setting build type to Release as none was specified.
+[136.814s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[136.815s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[136.815s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[136.815s] -- Configured cppcheck include dirs: /home/jetson/robot_ws/src/navigation2/nav2_smoother/include
+[136.815s] -- Configured cppcheck exclude dirs and/or files: 
+[136.815s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[136.815s] -- Configured cpplint exclude dirs and/or files: 
+[136.816s] -- Added test 'lint_cmake' to check CMake code style
+[136.816s] -- Added test 'uncrustify' to check C / C++ code style
+[136.816s] -- Configured uncrustify additional arguments: 
+[136.816s] -- Added test 'xmllint' to check XML markup files
+[136.816s] -- Configuring done
+[136.816s] -- Generating done
+[136.816s] -- Build files have been written to: /home/jetson/robot_ws/build/nav2_smoother
+[136.837s] Invoked command in '/home/jetson/robot_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/jetson/robot_ws/src/navigation2/nav2_smoother -DCMAKE_INSTALL_PREFIX=/home/jetson/robot_ws/install/nav2_smoother
+[136.838s] Invoking command in '/home/jetson/robot_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_smoother -- -j6 -l6
+[136.997s] [  5%] [32mBuilding CXX object CMakeFiles/smoother_server_core.dir/src/nav2_smoother.cpp.o[0m
+[180.772s] [ 11%] [32m[1mLinking CXX shared library libsmoother_server_core.so[0m
+[182.048s] [ 11%] Built target smoother_server_core
+[182.098s] [ 16%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[200.326s] [ 22%] [32m[1mLinking CXX static library libgtest.a[0m
+[200.417s] [ 22%] Built target gtest
+[200.475s] [ 27%] [32mBuilding CXX object CMakeFiles/smoother_server.dir/src/main.cpp.o[0m
+[213.262s] [ 33%] [32m[1mLinking CXX executable smoother_server[0m
+[214.252s] [ 33%] Built target smoother_server
+[214.297s] [ 38%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[216.674s] [ 44%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[216.801s] [ 44%] Built target gtest_main
+[216.869s] [ 50%] [32mBuilding CXX object CMakeFiles/savitzky_golay_smoother.dir/src/savitzky_golay_smoother.cpp.o[0m
+[230.599s] [ 55%] [32m[1mLinking CXX shared library libsavitzky_golay_smoother.so[0m
+[231.265s] [ 55%] Built target savitzky_golay_smoother
+[231.326s] [ 61%] [32mBuilding CXX object test/CMakeFiles/test_smoother_server.dir/test_smoother_server.cpp.o[0m
+[255.380s] [ 66%] [32m[1mLinking CXX executable test_smoother_server[0m
+[256.662s] [ 66%] Built target test_smoother_server
+[256.711s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_savitzky_golay_smoother.dir/test_savitzky_golay_smoother.cpp.o[0m
+[273.200s] [ 77%] [32m[1mLinking CXX executable test_savitzky_golay_smoother[0m
+[274.275s] [ 77%] Built target test_savitzky_golay_smoother
+[274.347s] [ 83%] [32mBuilding CXX object CMakeFiles/simple_smoother.dir/src/simple_smoother.cpp.o[0m
+[289.000s] [ 88%] [32m[1mLinking CXX shared library libsimple_smoother.so[0m
+[290.026s] [ 88%] Built target simple_smoother
+[290.094s] [ 94%] [32mBuilding CXX object test/CMakeFiles/test_simple_smoother.dir/test_simple_smoother.cpp.o[0m
+[307.121s] [100%] [32m[1mLinking CXX executable test_simple_smoother[0m
+[307.919s] [100%] Built target test_simple_smoother
+[307.963s] Invoked command in '/home/jetson/robot_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/jetson/robot_ws/build/nav2_smoother -- -j6 -l6
+[307.964s] Invoking command in '/home/jetson/robot_ws/build/nav2_smoother': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_smoother
+[308.004s] -- Install configuration: "Release"
+[308.005s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/plugins.xml
+[308.009s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/lib/libsmoother_server_core.so
+[308.014s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smoother/lib/libsmoother_server_core.so" to ""
+[308.014s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/lib/libsimple_smoother.so
+[308.015s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smoother/lib/libsimple_smoother.so" to ""
+[308.015s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/lib/libsavitzky_golay_smoother.so
+[308.016s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smoother/lib/libsavitzky_golay_smoother.so" to ""
+[308.017s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/lib/nav2_smoother/smoother_server
+[308.018s] -- Set runtime path of "/home/jetson/robot_ws/install/nav2_smoother/lib/nav2_smoother/smoother_server" to ""
+[308.018s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/include/
+[308.019s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/include//nav2_smoother
+[308.019s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/include//nav2_smoother/nav2_smoother.hpp
+[308.019s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/include//nav2_smoother/smoother_utils.hpp
+[308.019s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/include//nav2_smoother/simple_smoother.hpp
+[308.019s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/include//nav2_smoother/savitzky_golay_smoother.hpp
+[308.020s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/environment/library_path.sh
+[308.020s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/environment/library_path.dsv
+[308.021s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/ament_index/resource_index/package_run_dependencies/nav2_smoother
+[308.021s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/ament_index/resource_index/parent_prefix_path/nav2_smoother
+[308.021s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.sh
+[308.024s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/environment/ament_prefix_path.dsv
+[308.025s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/environment/path.sh
+[308.025s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/environment/path.dsv
+[308.025s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.bash
+[308.026s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.sh
+[308.026s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.zsh
+[308.026s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/local_setup.dsv
+[308.027s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/package.dsv
+[308.027s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/ament_index/resource_index/packages/nav2_smoother
+[308.027s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_smoother
+[308.027s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/ament_index/resource_index/rclcpp_components/nav2_smoother
+[308.028s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_include_directories-extras.cmake
+[308.029s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_libraries-extras.cmake
+[308.029s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/cmake/ament_cmake_export_dependencies-extras.cmake
+[308.029s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig.cmake
+[308.032s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/cmake/nav2_smootherConfig-version.cmake
+[308.032s] -- Installing: /home/jetson/robot_ws/install/nav2_smoother/share/nav2_smoother/package.xml
+[308.049s] Invoked command in '/home/jetson/robot_ws/build/nav2_smoother' returned '0': AMENT_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/jetson/robot_ws/install/nav2_core:/home/jetson/robot_ws/install/nav2_costmap_2d:/home/jetson/robot_ws/install/nav_2d_utils:/home/jetson/robot_ws/install/nav2_map_server:/home/jetson/robot_ws/install/nav2_lifecycle_manager:/home/jetson/robot_ws/install/nav2_util:/home/jetson/robot_ws/install/nav2_voxel_grid:/home/jetson/robot_ws/install/nav2_msgs:/home/jetson/robot_ws/install/nav_2d_msgs:/home/jetson/robot_ws/install/nav2_common:/home/jetson/robot_ws/install/servicerobot_joy:/opt/ros/humble LD_LIBRARY_PATH=/home/jetson/robot_ws/install/nav2_costmap_2d/lib:/home/jetson/robot_ws/install/nav_2d_utils/lib:/home/jetson/robot_ws/install/nav2_map_server/lib:/home/jetson/robot_ws/install/nav2_lifecycle_manager/lib:/home/jetson/robot_ws/install/nav2_util/lib:/home/jetson/robot_ws/install/nav2_voxel_grid/lib:/home/jetson/robot_ws/install/nav2_msgs/lib:/home/jetson/robot_ws/install/nav_2d_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/jetson/robot_ws/install/nav2_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav_2d_msgs/local/lib/python3.10/dist-packages:/home/jetson/robot_ws/install/nav2_common/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/jetson/robot_ws/build/nav2_smoother
